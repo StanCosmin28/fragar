@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from "react";
-import data from "../Model/data"; // Placeholder for data import
+import data from "../Model/data";
 
-const Navbar = () => {
+export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isNavbarVisible, setIsNavbarVisible] = useState(true); // Always visible by default
+  const [isNavbarVisible, setIsNavbarVisible] = useState(true);
   const lastScrollPosition = useRef(0);
   const navbarRef = useRef(null);
 
@@ -143,6 +143,4 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
-
-export default Navbar;
+}

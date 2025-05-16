@@ -13,7 +13,7 @@ function App() {
     <>
       <Navbar />
       <HeaderSection />
-      <Solutions /> {/* //solutions will be inside the header , optional */}
+      <Solutions />
       <AboutUs />
       <Services />
       <Mission />

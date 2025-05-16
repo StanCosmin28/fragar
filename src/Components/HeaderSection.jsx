@@ -1,5 +1,4 @@
 import data from "../Model/data";
-// import Navbar from "./Navbar";
 
 export default function HeaderSection() {
   return (
@@ -18,7 +17,7 @@ export default function HeaderSection() {
           Construcții inteligente pentru proiecte strategice
         </h1>
         <p className="text-lg md:text-xl mb-6">
-          De la fundație la automatizare – livrăm clădiri și spații smart,
+          De la fundație la automatizare - livrăm clădiri și spații smart,
           pregătite pentru viitor.
         </p>
         <div className="flex space-x-4">
@@ -30,7 +29,6 @@ export default function HeaderSection() {
           </button>
         </div>
       </div>
-      {/* <Navbar /> */}
     </header>
   );
 }

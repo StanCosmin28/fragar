@@ -1,6 +1,4 @@
-import React from "react";
-
-const WhatWeOffer = () => {
+export default function WhatWeOffer() {
   return (
     <div className="bg-white py-12 px-4">
       <div className="container mx-auto text-center md:text-left">
@@ -89,6 +87,4 @@ const WhatWeOffer = () => {
       </div>
     </div>
   );
-};
-
-export default WhatWeOffer;
+}
