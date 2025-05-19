@@ -20,7 +20,7 @@ const data = {
     "Panouri Fotovoltaice",
     "Implementare BMS",
   ],
-  CTAsvg: `${baseUrl}/cta-svg.svg`,
+  CTAsvg: `${baseUrl2}/cta-svg.svg`,
   //   housePlan: `${baseUrl}/house-plan.svg`,
   //   housePlan2: `${baseUrl}/house-plan2.webp`,
   //   services: `${baseUrl}/services.svg`,
