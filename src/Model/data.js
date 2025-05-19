@@ -1,4 +1,5 @@
 const baseUrl = "https://stancosmin28.github.io/btg";
+const baseUrl2 = "https://stancosmin28.github.io/fragar";
 
 const data = {
   logo: `${baseUrl}/btg-logo.svg`,
