@@ -135,7 +135,7 @@ function StackedCardsSlider() {
       </div>
 
       <div
-        className="relative h-full w-full max-w-4xl mx-auto"
+        className="relative h-full w-full max-w-7xl mx-auto"
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
@@ -209,12 +209,12 @@ function StackedCardsSlider() {
 
 function ProjectsSection() {
   return (
-    <section className="py-12 px-4 sm:px-6 lg:px-8 bg-oklch/10">
-      <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-4xl font-bold text-oklch mb-4">
-          Proiecte
+    <section className="py-12 px-4 sm:px-6 lg:px-8 bg-oklch/10 max-w-[1580px] mx-auto">
+      <div className="max-w-7xl mx-auto text-left">
+        <h2 className="text-3xl sm:text-4xl font-bold text-oklch mb-4 text-red-500">
+          PROIECTE
         </h2>
-        <p className="text-lg sm:text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
+        <p className="text-lg sm:text-xl text-gray-600 mb-6 max-w-3xl">
           Am contribuit la dezvoltarea unor clădiri instituționale, parcuri
           publice și spații industriale dotate cu tehnologie smart.
         </p>

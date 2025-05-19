@@ -93,8 +93,8 @@ export default function BlogCarousel({ posts = samplePosts }) {
     >
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center justify-between mb-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#CC9D23]">
-            Ultimele Noutăți
+          <h2 className="text-3xl md:text-4xl font-bold text-red-500">
+            ULTIMELE NOUTĂȚI
           </h2>
           <div className="flex space-x-2">
             <button

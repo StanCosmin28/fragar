@@ -2,7 +2,7 @@ export default function AboutUs() {
   return (
     <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between my-20">
       <div className="h-full md:w-1/2 text-center md:text-left justify-between flex flex-col">
-        <h2 className="text-red-600 text-2xl font-bold mb-2">CINE SUNTEM</h2>
+        <h2 className="text-red-600 text-4xl font-bold mb-2">CINE SUNTEM</h2>
         <hr className="border-red-600 w-16 mb-4 md:mx-0 mx-auto" />
         <h1 className="text-3xl md:text-4xl font-bold mb-4 md:max-w-7/8">
           Clădiri Inteligente, Construite după Viziunea Ta

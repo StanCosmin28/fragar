@@ -2,7 +2,7 @@ export default function WhatWeOffer() {
   return (
     <div className="bg-white py-12 px-4">
       <div className="container mx-auto text-center md:text-left">
-        <h2 className="text-red-500 text-2xl font-bold mb-2">
+        <h2 className="text-red-500 text-4xl font-bold mb-2">
           CE OFERIM ÎN PLUS
         </h2>
         <hr className="border-red-500 w-16 mb-4 mx-auto md:mx-0" />

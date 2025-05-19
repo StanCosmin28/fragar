@@ -6,9 +6,9 @@ export default function Services() {
 
   return (
     <>
-      <div className="flex flex-col items-start">
+      <div className="flex flex-col items-start lg:my-40">
         <div className="container mx-auto px-4">
-          <h2 className="text-red-600 text-2xl font-bold mb-2">SERVICII</h2>
+          <h2 className="text-red-600 text-4xl font-bold mb-2">SERVICII</h2>
           <hr className="border-red-600 w-16 mb-4" />
           <p className="text-gray-600 md:mb-6 mb-4">
             Proiectăm și executăm clădiri și spații urbane durabile, eficiente
@@ -16,7 +16,7 @@ export default function Services() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 md:gap-4 container mx-auto md:px-4 md:py-8">
+        <div className="w-full md:container md:mx-auto md:px-4 grid grid-cols-2 md:grid-cols-3 md:gap-4 md:py-8">
           {services.map((service, index) => (
             <div key={index} className="w-full relative group">
               <img
@@ -24,7 +24,7 @@ export default function Services() {
                 src={service}
                 alt={`Service ${index + 1}`}
               />
-              <div className="cursor-pointer absolute inset-0 flex justify-center items-center text-center bg-black/50  transition-all duration-200 md:rounded-lg test">
+              <div className="cursor-pointer absolute inset-0 flex justify-center items-center text-center bg-black/50 transition-all duration-200 md:rounded-lg test">
                 <h2 className="text-white text-lg md:text-xl font-bold px-4">
                   {servicesDescription[index]}
                 </h2>
