@@ -1,6 +1,12 @@
 export default function Mission() {
   return (
-    <div className="bg-gray-900 text-white py-12 px-4 relative">
+    <div className="bg-gray-900 md:bg-transparent text-white py-12 px-4 relative md:h-screen md:justify-center md:items-center md:flex md:flex-row">
+      <img
+        className="absolute w-[100%] -z-1 hidden md:block"
+        // style={{ backgroundPosition: "cover" }}
+        src="https://images.unsplash.com/photo-1635950574717-a0e150ee34bb?q=80&w=3576&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+      />
       <div className="container mx-auto flex flex-col-reverse md:flex-row-reverse items-center justify-between">
         <div className="md:w-1/2 md:grid grid-cols-2 gap-4 mb-8 md:mb-0 hidden ">
           <img

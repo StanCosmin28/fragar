@@ -7,6 +7,7 @@ import Services from "./Components/Services";
 import Mission from "./Components/Mission";
 import WhatWeOffer from "./Components/WhatWeOffer";
 import Footer from "./Components/Footer";
+import CTASection from "./Components/CTASection";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Services />
       <Mission />
       <WhatWeOffer />
+      <CTASection />
       <Footer />
     </>
   );

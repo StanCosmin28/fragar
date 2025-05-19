@@ -24,7 +24,7 @@ export default function Services() {
                 src={service}
                 alt={`Service ${index + 1}`}
               />
-              <div className="cursor-pointer absolute inset-0 flex justify-center items-center text-center bg-black/50 group-hover:bg-blue-600/70 group-active:bg-blue-600/70 transition-all duration-200 md:rounded-lg">
+              <div className="cursor-pointer absolute inset-0 flex justify-center items-center text-center bg-black/50  transition-all duration-200 md:rounded-lg test">
                 <h2 className="text-white text-lg md:text-xl font-bold px-4">
                   {servicesDescription[index]}
                 </h2>
