@@ -3,6 +3,22 @@ const baseUrl = "https://stancosmin28.github.io/btg";
 const data = {
   logo: `${baseUrl}/btg-logo.svg`,
   video: `${baseUrl}/btg-video.mp4`,
+  services: [
+    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg",
+    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
+    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
+    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg",
+    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg",
+    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg",
+  ],
+  servicesDescription: [
+    "Construcții civile și industriale",
+    "Parcuri și Spații Urbane",
+    "Antrepriză Generală",
+    "Proiectare tehnică",
+    "Panouri Fotovoltaice",
+    "Implementare BMS",
+  ],
   //   housePlan: `${baseUrl}/house-plan.svg`,
   //   housePlan2: `${baseUrl}/house-plan2.webp`,
   //   services: `${baseUrl}/services.svg`,
