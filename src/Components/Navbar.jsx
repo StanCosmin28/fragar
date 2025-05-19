@@ -170,11 +170,11 @@ const Navbar = () => {
               </li> */}
               <li className="relative group md:ml-4 hidden md:block">
                 <a href="tel:+40232250885">
-                  <button
-                    type="button"
-                    className="text-white cursor-pointer bg-[#0655D1] hover:bg-blue-800 hover:font-bold focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center transition-all duration-300 hover:scale-110"
-                  >
-                    Contact
+                  <button className=" cursor-pointer hover:scale-105 transition duration-500 self-start relative overflow-hidden group px-6 py-3 rounded-lg bg-[#2691EA] text-white font-medium">
+                    <span className="relative z-10 group-hover:text-white transition-colors duration-500">
+                      Contact
+                    </span>
+                    <span className="absolute inset-0 bg-[#F42223] translate-y-full group-hover:translate-y-0 transition-transform duration-800 rounded-full scale-120"></span>
                   </button>
                 </a>
               </li>

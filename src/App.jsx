@@ -8,6 +8,8 @@ import Mission from "./Components/Mission";
 import WhatWeOffer from "./Components/WhatWeOffer";
 import Footer from "./Components/Footer";
 import CTASection from "./Components/CTASection";
+import BlogCard from "./Components/BlogCard";
+import StackedCardsSlider from "./Components/StackedCardsSlider";
 
 function App() {
   return (
@@ -19,7 +21,10 @@ function App() {
       <Services />
       <Mission />
       <WhatWeOffer />
+      <StackedCardsSlider />
+      <BlogCard />
       <CTASection />
+      {/* <BlogSliders /> */}
       <Footer />
     </>
   );
