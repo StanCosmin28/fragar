@@ -20,7 +20,7 @@ const data = {
     `${baseUrl}/servicii5.webp`,
     `${baseUrl}/servicii6.webp`,
   ],
-  missionBackground: `${baseUrl}/mission-bg.png`,
+  missionBackground: `${baseUrl}/mission-bg.webp`,
   missions: [
     `${baseUrl}/mission1.webp`,
     `${baseUrl}/mission2.webp`,
