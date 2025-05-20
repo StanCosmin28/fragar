@@ -4,7 +4,7 @@ export default function CTASection() {
     <>
       <div className="h-120 md:h-160 lg:h-100 w-full relative bg-gray-800 flex justify-center lg:block ">
         <div className="flex flex-col gap-4 lg:gap-10 w-full h-full p-5 lg:justify-start lg:items-start max-w-[1440px] lg:relative lg:mx-auto">
-          <h2 className="text-[20px] md:text-3xl font-bold text-white">
+          <h2 className="text-[20px] md:text-3xl font-bold text-white mt-10">
             Vrei spații moderne și eficiente? <br /> Hai să discutăm despre
             proiectul tău!
           </h2>
