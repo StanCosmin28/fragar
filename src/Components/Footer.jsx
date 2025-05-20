@@ -1,4 +1,5 @@
 import data from "../Model/data";
+import "./footer.css";
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-8">
@@ -76,9 +77,10 @@ export default function Footer() {
           </div>
 
           {/* Navigation Links */}
-          <div className="flex flex-col md:flex-row md:space-x-12 mb-8 md:mb-0">
-            <div className="mb-6 md:mb-0">
+          <div className="flex flex-col md:flex-row md:space-x-12 mb-8 md:mb-0 sm:gap-10 md:gap-0">
+            <div className="footer-edit mb-6 md:mb-0 md:block flex justify-center items-center gap-10">
               <h3 className="text-lg font-semibold mb-2">Acasă</h3>
+              <div className="bar"></div>
               <ul className="space-y-2">
                 <li>
                   <a href="#" className="hover:underline">
@@ -102,8 +104,11 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-2">Serviciile noastre</h3>
+            <div className="footer-edit mb-6 md:mb-0 md:block flex justify-center items-center gap-10">
+              <h3 className="text-lg font-semibold mb-2 text-center footer-text">
+                Serviciile noastre
+              </h3>
+              <div className="bar"></div>
               <ul className="space-y-2">
                 <li>
                   <a href="#" className="hover:underline">
@@ -132,7 +137,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a href="#" className="hover:underline">
-                    Construcții civile și industriale
+                    Construcții civile <br /> și industriale
                   </a>
                 </li>
               </ul>

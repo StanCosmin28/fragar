@@ -179,7 +179,7 @@ function StackedCardsSlider() {
                     {post.title}
                   </h3>
                   <p className="text-gray-600 mb-6">{post.excerpt}</p>
-                  <button className="self-start relative overflow-hidden group px-6 py-3 rounded-lg bg-[#2691EA] text-white font-medium mx-auto">
+                  <button className="self-start relative overflow-hidden group px-6 py-3 rounded-lg bg-[#2691EA] text-white font-medium md:mx-0 mx-auto">
                     <span className="relative z-10 group-hover:text-white transition-colors duration-500">
                       Citește mai mult
                     </span>
@@ -209,8 +209,8 @@ function StackedCardsSlider() {
 
 function ProjectsSection() {
   return (
-    <section className="py-12 px-4 sm:px-6 lg:px-8 bg-oklch/10 max-w-[1580px] mx-auto">
-      <div className="max-w-7xl mx-auto text-left">
+    <section className="container py-12 px-4 sm:px-6 lg:px-8 bg-oklch/10 mx-auto">
+      <div className="max-w-[1560px] mx-auto text-left">
         <h2 className="text-3xl sm:text-4xl font-bold text-oklch mb-4 text-red-500">
           PROIECTE
         </h2>
@@ -219,7 +219,7 @@ function ProjectsSection() {
           publice și spații industriale dotate cu tehnologie smart.
         </p>
         <button className="mb-8 px-6 py-3 rounded-lg bg-[#2691EA] text-white font-medium hover:bg-[#F42223] transition-colors duration-300">
-          Vezi toate proiectele
+          Vezi toate proiectelel
         </button>
         <StackedCardsSlider />
       </div>
