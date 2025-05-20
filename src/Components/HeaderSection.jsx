@@ -12,7 +12,7 @@ export default function HeaderSection() {
         <source src={data.video} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white">
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white p-5">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Construcții inteligente pentru proiecte strategice
         </h1>
@@ -22,7 +22,7 @@ export default function HeaderSection() {
         </p>
         <div className="flex space-x-4">
           <button className="bg-red-600 hover:bg-red-800 hover:scale-105 text-white font-medium py-4 px-10 transition duration-300 cursor-pointer">
-            CERE OFERTĂ
+            CONSULTANȚĂ GRATUITĂ
           </button>
           <button className="border-2 border-white hover:bg-white hover:scale-105 hover:text-red-600 text-white font-medium py-2 px-6 transition duration-300 cursor-pointer">
             Vezi Portofoliul

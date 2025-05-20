@@ -1,9 +1,11 @@
-const baseUrl = "https://stancosmin28.github.io/btg";
-const baseUrl2 = "https://stancosmin28.github.io/fragar";
+const baseUrl = "https://stancosmin28.github.io/fragar";
+// const baseUrl2 = "https://stancosmin28.github.io/fragar";
 
 const data = {
-  logo: `${baseUrl}/btg-logo.svg`,
-  video: `${baseUrl}/btg-video.mp4`,
+  logo: `${baseUrl}/fragar.svg`,
+  logoWhite: `${baseUrl}/fragar-white.svg`,
+  logoDark: `${baseUrl}/fragar-dark.svg`,
+  video: `${baseUrl}/fragar-video.mp4`,
   services: [
     "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg",
     "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
@@ -20,7 +22,7 @@ const data = {
     "Panouri Fotovoltaice",
     "Implementare BMS",
   ],
-  CTAsvg: `${baseUrl2}/cta-svg.svg`,
+  CTAsvg: `${baseUrl}/cta-svg.svg`,
   //   housePlan: `${baseUrl}/house-plan.svg`,
   //   housePlan2: `${baseUrl}/house-plan2.webp`,
   //   services: `${baseUrl}/services.svg`,
