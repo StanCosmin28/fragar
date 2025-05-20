@@ -1,3 +1,4 @@
+import data from "../Model/data";
 export default function AboutUs() {
   return (
     <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between my-20">
@@ -25,7 +26,7 @@ export default function AboutUs() {
       </div>
       <div className="md:w-1/2 mt-6 md:mt-0">
         <img
-          src="https://plus.unsplash.com/premium_photo-1681691912442-68c4179c530c?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src={data.whoWeAre}
           alt="Construction Site"
           className="w-full h-auto object-cover rounded-lg"
         />

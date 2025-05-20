@@ -62,12 +62,12 @@ const Navbar = () => {
   return (
     <nav ref={navbarRef} className={navbarClasses}>
       <div className="max-w-screen-xxl flex flex-wrap items-center justify-between mx-auto p-4 xl:px-20">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={data.logo} className="h-8" alt="Fragar" />
           <span
-            className={`self-center text-2xl font-bold whitespace-nowrap ${textColor} transition-colors duration-300`}
+            className={`leading-none self-center text-xl font-bold whitespace-nowrap ${textColor} transition-colors duration-300`}
           >
-            Fragar
+            Fragar Trading
           </span>
         </a>
         <div className="flex items-center space-x-3 md:space-x-0 rtl:space-x-reverse">

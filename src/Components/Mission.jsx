@@ -1,30 +1,31 @@
+import data from "../Model/data";
 export default function Mission() {
   return (
     <div className=" md:bg-transparent text-white py-12 md:px-4 relative min-h-[80vh] md:flex md:flex-row md:items-center md:justify-center">
       <img
         className="absolute inset-0 w-full h-full object-cover -z-10 hidden md:block"
-        src="https://images.unsplash.com/photo-1635950574717-a0e150ee34bb?q=80&w=3576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src={data.missionBackground}
         alt="Background"
       />
       <div className="md:container mx-auto flex flex-col md:flex-row-reverse items-center relative md:p-10 p-5 justify-center">
         <div className="md:w-1/2  grid-cols-2 gap-4 mb-8 md:mb-0 hidden md:grid">
           <img
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+            src={data.missions[0]}
             alt="Mission Image 1"
             className="w-full h-auto rounded-lg"
           />
           <img
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+            src={data.missions[1]}
             alt="Mission Image 2"
             className="w-full h-auto rounded-lg"
           />
           <img
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+            src={data.missions[2]}
             alt="Mission Image 3"
             className="w-full h-auto rounded-lg"
           />
           <img
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+            src={data.missions[3]}
             alt="Mission Image 4"
             className="w-full h-auto rounded-lg"
           />
@@ -48,29 +49,29 @@ export default function Mission() {
         <div className="absolute w-full h-full">
           <img
             className="absolute inset-0 w-full h-full object-cover md:hidden block "
-            src="https://images.unsplash.com/photo-1635950574717-a0e150ee34bb?q=80&w=3576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={data.missionBackground}
             alt="Background"
           />
         </div>
       </div>
       <div className="md:hidden mt-8 flex flex-col space-y-4">
         <img
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg"
+          src={data.missions[0]}
           alt="Mission Image 1"
           className="w-full h-auto md:rounded-lg"
         />
         <img
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
+          src={data.missions[1]}
           alt="Mission Image 2"
           className="w-full h-auto md:rounded-lg"
         />
         <img
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
+          src={data.missions[2]}
           alt="Mission Image 3"
           className="w-full h-auto md:rounded-lg"
         />
         <img
-          src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
+          src={data.missions[3]}
           alt="Mission Image 4"
           className="w-full h-auto md:rounded-lg"
         />

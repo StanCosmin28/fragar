@@ -6,13 +6,32 @@ const data = {
   logoWhite: `${baseUrl}/fragar-white.svg`,
   logoDark: `${baseUrl}/fragar-dark.svg`,
   video: `${baseUrl}/fragar-video.mp4`,
+  whoWeAre: `${baseUrl}/who_we_are.png`, //change this is not webp, over 3MB !!!!
+  solutionIcons: [
+    `${baseUrl}/tools-icon.svg`,
+    `${baseUrl}/chip-icon.svg`,
+    `${baseUrl}/shield-icon.svg`,
+  ],
   services: [
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg",
-    "https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg",
+    `${baseUrl}/servicii1.webp`,
+    `${baseUrl}/servicii2.webp`,
+    `${baseUrl}/servicii3.webp`,
+    `${baseUrl}/servicii4.webp`,
+    `${baseUrl}/servicii5.webp`,
+    `${baseUrl}/servicii6.webp`,
+  ],
+  missionBackground: `${baseUrl}/mission-bg.png`,
+  missions: [
+    `${baseUrl}/mission1.webp`,
+    `${baseUrl}/mission2.webp`,
+    `${baseUrl}/mission3.webp`,
+    `${baseUrl}/mission4.webp`,
+  ],
+  wwoIcons: [
+    `${baseUrl}/icon1.svg`,
+    `${baseUrl}/icon2.svg`,
+    `${baseUrl}/icon3.svg`,
+    `${baseUrl}/icon4.svg`,
   ],
   servicesDescription: [
     "Construcții civile și industriale",
