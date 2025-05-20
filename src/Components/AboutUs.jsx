@@ -13,13 +13,13 @@ export default function AboutUs() {
           cu tehnologii smart pentru proiecte durabile și eficiente.
         </p>
         <div className="flex flex-row justify-center md:justify-start gap-4 flex-wrap">
-          <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-sm sm:text-base">
+          <button className="cursor-pointer hover:scale-105 transition-all duration-300 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-sm sm:text-base">
             Inovație
           </button>
-          <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-sm sm:text-base">
+          <button className="cursor-pointer hover:scale-105 transition-all duration-300 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-sm sm:text-base">
             Profesionalism
           </button>
-          <button className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-sm sm:text-base">
+          <button className="cursor-pointer hover:scale-105 transition-all duration-300 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-sm sm:text-base">
             Expertiză
           </button>
         </div>

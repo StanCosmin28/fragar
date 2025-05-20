@@ -214,7 +214,7 @@ function ProjectsSection() {
         <h2 className="text-3xl sm:text-4xl font-bold text-oklch mb-4 text-red-500">
           PROIECTE
         </h2>
-        <p className="text-lg sm:text-xl text-gray-600 mb-6 max-w-3xl">
+        <p className="text-lg sm:text-xl text-gray-600 mb-6 max-w-xl">
           Am contribuit la dezvoltarea unor clădiri instituționale, parcuri
           publice și spații industriale dotate cu tehnologie smart.
         </p>

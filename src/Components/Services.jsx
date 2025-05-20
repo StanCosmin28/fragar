@@ -10,7 +10,7 @@ export default function Services() {
         <div className="container mx-auto px-4">
           <h2 className="text-red-600 text-4xl font-bold mb-2">SERVICII</h2>
           <hr className="border-red-600 w-16 mb-4" />
-          <p className="text-gray-600 md:mb-6 mb-4">
+          <p className="text-gray-600 md:mb-6 mb-4 max-w-lg">
             Proiectăm și executăm clădiri și spații urbane durabile, eficiente
             și inteligente, adaptate nevoilor comunității.
           </p>
