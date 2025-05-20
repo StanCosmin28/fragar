@@ -17,7 +17,7 @@ export default function CTASection() {
             alt=""
           />
         </div>
-        <div className="h-10 w-full bg-[#2691EA] absolute bottom-0 z-100"></div>
+        <div className="h-10 w-full bg-[#2691EA] absolute bottom-0 z-10"></div>
       </div>
     </>
   );
