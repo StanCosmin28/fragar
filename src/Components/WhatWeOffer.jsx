@@ -1,3 +1,4 @@
+import "./whatWeOffer.css";
 export default function WhatWeOffer() {
   return (
     <div className="py-12 px-4">
@@ -10,11 +11,11 @@ export default function WhatWeOffer() {
           Tratăm fiecare proiect cu responsabilitate și livrăm soluții moderne,
           atent gândite în cele mai mici detalii.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 custom-cursor">
           {/* Card 1 */}
-          <div className="relative aspect-square w-full">
+          <div className="relative aspect-square w-full scl-card">
             {/* Black backdrop */}
-            <div className="absolute inset-0 bg-[#4B3B99] rounded-3xl translate-x-2 translate-y-2"></div>
+            <div className="absolute inset-0 bg-[#4B3B99] rounded-3xl translate-x-2 translate-y-2 scl-card"></div>
             {/* Card content */}
             <div className="absolute inset-0 bg-[#E5E0FF] rounded-3xl shadow-xl flex flex-col justify-between p-3 md:p-4 overflow-hidden">
               <div className="flex justify-center md:justify-start mb-1">
@@ -39,9 +40,9 @@ export default function WhatWeOffer() {
           </div>
 
           {/* Card 2 */}
-          <div className="relative aspect-square w-full">
+          <div className="relative aspect-square w-full scl-card">
             {/* Black backdrop */}
-            <div className="absolute inset-0 bg-[#4B3B99] rounded-3xl translate-x-2 translate-y-2"></div>
+            <div className="absolute inset-0 bg-[#4B3B99] rounded-3xl translate-x-2 translate-y-2 scl-card"></div>
             {/* Card content */}
             <div className="absolute inset-0 bg-[#E5E0FF] rounded-3xl shadow-xl flex flex-col justify-between p-3 md:p-4 overflow-hidden">
               <div className="flex justify-center md:justify-start mb-1">
@@ -66,9 +67,9 @@ export default function WhatWeOffer() {
           </div>
 
           {/* Card 3 */}
-          <div className="relative aspect-square w-full">
+          <div className="relative aspect-square w-full scl-card">
             {/* Black backdrop */}
-            <div className="absolute inset-0 bg-[#4B3B99] rounded-3xl translate-x-2 translate-y-2"></div>
+            <div className="absolute inset-0 bg-[#4B3B99] rounded-3xl translate-x-2 translate-y-2 scl-card"></div>
             {/* Card content */}
             <div className="absolute inset-0 bg-[#E5E0FF] rounded-3xl shadow-xl flex flex-col justify-between p-3 md:p-4 overflow-hidden">
               <div className="flex justify-center md:justify-start mb-1">
@@ -93,9 +94,9 @@ export default function WhatWeOffer() {
           </div>
 
           {/* Card 4 */}
-          <div className="relative aspect-square w-full">
+          <div className="relative aspect-square w-full scl-card">
             {/* Black backdrop */}
-            <div className="absolute inset-0 bg-[#4B3B99] rounded-3xl translate-x-2 translate-y-2"></div>
+            <div className="absolute inset-0 bg-[#4B3B99] rounded-3xl translate-x-2 translate-y-2 scl-card"></div>
             {/* Card content */}
             <div className="absolute inset-0 bg-[#E5E0FF] rounded-3xl shadow-xl flex flex-col justify-between p-3 md:p-4 overflow-hidden">
               <div className="flex justify-center md:justify-start mb-1">
