@@ -218,9 +218,11 @@ function ProjectsSection() {
           Am contribuit la dezvoltarea unor clădiri instituționale, parcuri
           publice și spații industriale dotate cu tehnologie smart.
         </p>
-        <button className="mb-8 px-6 py-3 rounded-lg bg-[#2691EA] text-white font-medium hover:bg-[#F42223] transition-colors duration-300">
-          Vezi toate proiectelel
-        </button>
+        <a href="/fragar/proiecte">
+          <button className="cursor-pointer mb-8 px-6 py-3 rounded-lg bg-[#2691EA] text-white font-medium hover:bg-[#F42223] transition-colors duration-300">
+            Vezi toate proiectelel
+          </button>
+        </a>
         <StackedCardsSlider />
       </div>
     </section>

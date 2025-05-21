@@ -13,6 +13,7 @@ import BlogCard from "./Components/BlogCard";
 import StackedCardsSlider from "./Components/StackedCardsSlider";
 import ProjectsNavigation from "./Components/ProjectsNavigation";
 import ProjectsHeader from "./Components/ProjectsHeader";
+import ProjectsSection from "./Components/ProjectsSection";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
             <>
               <ProjectsNavigation />
               <ProjectsHeader />
+              <ProjectsSection />
               <CTASection />
               <Footer />
             </>

@@ -52,7 +52,7 @@ export default function ProjectsNavigation() {
     <nav ref={navbarRef} className={navbarClasses}>
       <div className="max-w-screen-xxl flex flex-wrap items-center justify-between mx-auto p-4 xl:px-20">
         <Link
-          to="/"
+          to="/fragar"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img src={data.logo} className="h-8" alt="Fragar" />
@@ -103,13 +103,14 @@ export default function ProjectsNavigation() {
           >
             <ul className="flex flex-col p-4 md:p-0 font-bold bg-white text-black md:bg-transparent md:text-black rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:items-center">
               <li className="relative group">
-                <a
+                <Link
+                  to="/fragar"
                   className="block py-2 px-3 text-black rounded-sm md:p-0 transition-all duration-300 cursor-pointer"
-                  onClick={(e) => handleScrollToSection(e, "home")}
+                  //   onClick={(e) => handleScrollToSection(e, "home")}
                 >
                   Acasa
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-                </a>
+                </Link>
               </li>
               <li className="relative group">
                 <a
@@ -129,7 +130,7 @@ export default function ProjectsNavigation() {
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
               </li>
-              <li className="relative group">
+              {/* <li className="relative group">
                 <a
                   className="block py-2 px-3 text-black rounded-sm md:p-0 transition-all duration-300 cursor-pointer"
                   onClick={(e) => handleScrollToSection(e, "expertiza")}
@@ -137,7 +138,7 @@ export default function ProjectsNavigation() {
                   Proiecte
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
-              </li>
+              </li> */}
               <li className="relative group md:ml-4 hidden md:block">
                 <a href="tel:+40232250885">
                   <button className="text-white cursor-pointer bg-[#0655D1] hover:bg-blue-800 hover:font-bold focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center transition-all duration-300 hover:scale-110">

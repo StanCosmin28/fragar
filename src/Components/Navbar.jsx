@@ -112,7 +112,7 @@ const Navbar = () => {
             id="navbar-sticky"
           >
             <ul className="flex flex-col p-4 md:p-0 font-bold bg-white text-black md:bg-transparent md:text-inherit rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:items-center">
-              <li className="relative group">
+              {/* <li className="relative group">
                 <a
                   className={`block py-2 px-3 ${
                     isMenuOpen ? "text-black" : textColor
@@ -123,7 +123,7 @@ const Navbar = () => {
                   Acasa
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
-              </li>
+              </li> */}
               <li className="relative group">
                 <a
                   className={`block py-2 px-3 ${
@@ -152,7 +152,7 @@ const Navbar = () => {
                   className={`block py-2 px-3 ${
                     isMenuOpen ? "text-black" : textColor
                   } rounded-sm md:p-0 transition-all duration-300 cursor-pointer`}
-                  onClick={(e) => handleScrollToSection(e, "expertiza")}
+                  onClick={(e) => handleScrollToSection(e, "proiecte")}
                 >
                   Proiecte
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
