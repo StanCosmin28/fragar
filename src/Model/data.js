@@ -6,7 +6,7 @@ const data = {
   logoWhite: `${baseUrl}/fragar-white.svg`,
   logoDark: `${baseUrl}/fragar-dark.svg`,
   video: `${baseUrl}/fragar-video.mp4`,
-  whoWeAre: `${baseUrl}/who_we_are.png`, //change this is not webp, over 3MB !!!!
+  whoWeAre: `${baseUrl}/who_we_are.webp`, //change this is not webp, over 3MB !!!!
   solutionIcons: [
     `${baseUrl}/tools-icon.svg`,
     `${baseUrl}/chip-icon.svg`,
@@ -42,6 +42,7 @@ const data = {
     "Implementare BMS",
   ],
   CTAsvg: `${baseUrl}/cta-svg.svg`,
+  blogHeader: `${baseUrl}/blog-header.webp`,
   //   housePlan: `${baseUrl}/house-plan.svg`,
   //   housePlan2: `${baseUrl}/house-plan2.webp`,
   //   services: `${baseUrl}/services.svg`,
