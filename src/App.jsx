@@ -1,5 +1,6 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import HeaderSection from "./Components/HeaderSection";
 import Navbar from "./Components/Navbar";
 import Solutions from "./Components/Solutions";
@@ -20,7 +21,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/fragar"
+          path="/"
           element={
             <>
               <Navbar />
@@ -38,7 +39,7 @@ function App() {
           }
         />
         <Route
-          path="fragar/proiecte"
+          path="/proiecte"
           element={
             <>
               <ProjectsNavigation />
@@ -49,9 +50,10 @@ function App() {
             </>
           }
         />
-        {/* <Route path="/projects/:id" element={<Projects />} /> */}
       </Routes>
     </Router>
+
+    //<Route path="/projects/:id" element={<Projects />} />
     // <>
     //   <Navbar />
     //   <HeaderSection />
