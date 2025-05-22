@@ -1,6 +1,6 @@
 import "./App.css";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { HashRouter as Router, Routes, Route } from "react-router-dom"; // change this || HasRouter is for GitHub Pages bcs there is no server to the app || on plesk you can use BrowserRouter
 import HeaderSection from "./Components/HeaderSection";
 import Navbar from "./Components/Navbar";
 import Solutions from "./Components/Solutions";
@@ -21,7 +21,7 @@ function App() {
     <Router>
       <Routes>
         <Route
-          path="/"
+          path="/fragar"
           element={
             <>
               <Navbar />
@@ -39,7 +39,7 @@ function App() {
           }
         />
         <Route
-          path="/proiecte"
+          path="/fragar/proiecte"
           element={
             <>
               <ProjectsNavigation />
@@ -52,22 +52,6 @@ function App() {
         />
       </Routes>
     </Router>
-
-    //<Route path="/projects/:id" element={<Projects />} />
-    // <>
-    //   <Navbar />
-    //   <HeaderSection />
-    //   <Solutions />
-    //   <AboutUs />
-    //   <Services />
-    //   <Mission />
-    //   <WhatWeOffer />
-    //   <StackedCardsSlider />
-    //   <BlogCard />
-    //   <CTASection />
-    //   {/* <BlogSliders /> */}
-    //   <Footer />
-    // </>
   );
 }
 
