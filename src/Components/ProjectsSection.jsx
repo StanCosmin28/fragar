@@ -20,7 +20,7 @@ export default function ProjectsSection() {
       <div className="container mx-auto max-w-7xl">
         <h2 className="text-red-600 text-4xl font-bold mb-2">PROIECTE</h2>
         <hr className="border-red-600 w-30 border-2 mb-4" />
-        <div className="flex flex-col items-start text-left  mb-12">
+        <div className="flex flex-col items-start text-left mb-12">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-5">
             FRAGAR construiește viitorul — durabil, eficient și conectat la
             tehnologie.
