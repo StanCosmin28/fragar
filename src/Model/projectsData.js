@@ -1,4 +1,4 @@
-const projectsPosts = [
+const projectsData = [
   {
     id: 1,
     title: "Automatizarea inteligentă a clădirilor: tendințe actuale",
@@ -91,4 +91,4 @@ const projectsPosts = [
   },
 ];
 
-export default projectsPosts;
+export default projectsData;

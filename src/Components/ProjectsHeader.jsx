@@ -1,7 +1,5 @@
-import samplePosts from "../Model/blogData";
 import data from "../Model/data";
 export default function ProjectsHeader() {
-  console.log("This are the projects:", samplePosts);
   return (
     <>
       <div className="w-full  h-[60vh] overflow-hidden">
