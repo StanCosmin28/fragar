@@ -7,9 +7,14 @@ export default function HeaderSection() {
         autoPlay
         loop
         muted
+        preload="metadata"
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
-        <source src={data.video} type="video/mp4" />
+        <source src={data.video} media="(max-width: 768px)" type="video/mp4" />
+        <source
+          src="https://stancosmin28.github.io/fragar/fragar-video.mp4"
+          type="video/mp4"
+        />
         Your browser does not support the video tag.
       </video>
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white p-5 max-w-3xl mx-auto">
