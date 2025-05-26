@@ -159,14 +159,14 @@ function StackedCardsSlider() {
                 transform: `translateY(${translateY}px) scale(${scale})`,
               }}
             >
-              <div className="h-full bg-white rounded-xl overflow-hidden flex flex-col md:flex-row">
+              <div className="h-full bg-white rounded-xl overflow-hidden flex flex-col md:flex-row cursor-pointer">
                 <div className="md:w-1/2 relative">
                   <img
                     src={post.image}
                     alt={post.title}
                     className="w-full h-64 md:h-full object-cover"
                   />
-                  <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#F42223]/60 to-transparent"></div>
+                  {/* <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#F42223]/30 to-transparent"></div> */}
                   <div className="absolute bottom-4 left-4 text-white">
                     <span className="bg-[#2691EA] text-xs font-bold uppercase tracking-wider px-2 py-1 rounded">
                       {post.category}
