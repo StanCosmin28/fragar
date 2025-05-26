@@ -1,5 +1,7 @@
+import data from "../Model/data";
 import "./whatWeOffer.css";
 export default function WhatWeOffer() {
+  const { wwoIcons } = data;
   return (
     <div className="py-12 px-4">
       <div className="container mx-auto text-center md:text-left">
@@ -17,15 +19,13 @@ export default function WhatWeOffer() {
             {/* Black backdrop */}
             <div className="absolute inset-0 bg-[#4B3B99] rounded-3xl translate-x-2 translate-y-2 scl-card"></div>
             {/* Card content */}
-            <div className="absolute inset-0 bg-[#E5E0FF] rounded-3xl shadow-xl flex flex-col justify-between p-3 md:p-4 overflow-hidden">
+            <div className="absolute inset-0 bg-[#E5E0FF] rounded-3xl shadow-xl flex flex-col justify-between p-8 md:p-4 overflow-hidden">
               <div className="flex justify-center md:justify-start mb-1">
-                <svg
-                  className="w-12 h-12 md:w-18 md:h-18 xl:w-20 xl:h-20 text-gray-800"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 13h14v-2H5v2zm-2 4h14v-2H3v2zm4-8h10V7H7v2z" />
-                </svg>
+                <img
+                  className="w-28 h-28 md:w-18 md:h-18 xl:w-20 xl:h-20 text-gray-800"
+                  src={wwoIcons[0]}
+                  alt=""
+                />
               </div>
               <div className="flex-grow flex flex-col justify-center gap-2">
                 <h3 className="text-base md:text-xl font-semibold mb-1">
@@ -44,15 +44,13 @@ export default function WhatWeOffer() {
             {/* Black backdrop */}
             <div className="absolute inset-0 bg-[#4B3B99] rounded-3xl translate-x-2 translate-y-2 scl-card"></div>
             {/* Card content */}
-            <div className="absolute inset-0 bg-[#E5E0FF] rounded-3xl shadow-xl flex flex-col justify-between p-3 md:p-4 overflow-hidden">
+            <div className="absolute inset-0 bg-[#E5E0FF] rounded-3xl shadow-xl flex flex-col justify-between p-8 md:p-4 overflow-hidden">
               <div className="flex justify-center md:justify-start mb-1">
-                <svg
-                  className="w-12 h-12 md:w-18 md:h-18 xl:w-20 xl:h-20 text-gray-800"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-2h2v2zm0-4h-2V7h2v6zm4 4h-2v-2h2v2zm0-4h-2V7h2v6z" />
-                </svg>
+                <img
+                  className="w-28 h-28 md:w-18 md:h-18 xl:w-20 xl:h-20 text-gray-800"
+                  src={wwoIcons[1]}
+                  alt=""
+                />
               </div>
               <div className="flex-grow flex flex-col justify-center gap-2">
                 <h3 className="text-base md:text-xl font-semibold mb-1">
@@ -60,7 +58,7 @@ export default function WhatWeOffer() {
                 </h3>
                 <p className="text-xs lg:text-[15px] text-gray-600 line-clamp-3">
                   Coordonăm toate etapele - proiectare, construcție și instalare
-                  – cu un singur punct de contact.
+                  - cu un singur punct de contact.
                 </p>
               </div>
             </div>
@@ -71,15 +69,13 @@ export default function WhatWeOffer() {
             {/* Black backdrop */}
             <div className="absolute inset-0 bg-[#4B3B99] rounded-3xl translate-x-2 translate-y-2 scl-card"></div>
             {/* Card content */}
-            <div className="absolute inset-0 bg-[#E5E0FF] rounded-3xl shadow-xl flex flex-col justify-between p-3 md:p-4 overflow-hidden">
+            <div className="absolute inset-0 bg-[#E5E0FF] rounded-3xl shadow-xl flex flex-col justify-between p-8 md:p-4 overflow-hidden">
               <div className="flex justify-center md:justify-start mb-1">
-                <svg
-                  className="w-12 h-12 md:w-18 md:h-18 xl:w-20 xl:h-20 text-gray-800"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" />
-                </svg>
+                <img
+                  className="w-28 h-28 md:w-18 md:h-18 xl:w-20 xl:h-20 text-gray-800"
+                  src={wwoIcons[2]}
+                  alt=""
+                />
               </div>
               <div className="flex-grow flex flex-col justify-center gap-2">
                 <h3 className="text-base md:text-xl font-semibold mb-1">
@@ -98,15 +94,13 @@ export default function WhatWeOffer() {
             {/* Black backdrop */}
             <div className="absolute inset-0 bg-[#4B3B99] rounded-3xl translate-x-2 translate-y-2 scl-card"></div>
             {/* Card content */}
-            <div className="absolute inset-0 bg-[#E5E0FF] rounded-3xl shadow-xl flex flex-col justify-between p-3 md:p-4 overflow-hidden">
+            <div className="absolute inset-0 bg-[#E5E0FF] rounded-3xl shadow-xl flex flex-col justify-between p-8 md:p-4 overflow-hidden">
               <div className="flex justify-center md:justify-start mb-1">
-                <svg
-                  className="w-12 h-12 md:w-18 md:h-18 xl:w-20 xl:h-20 text-gray-800"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" />
-                </svg>
+                <img
+                  className="w-28 h-28 md:w-18 md:h-18 xl:w-20 xl:h-20 text-gray-800"
+                  src={wwoIcons[3]}
+                  alt=""
+                />
               </div>
               <div className="flex-grow flex flex-col justify-center gap-2">
                 <h3 className="text-base md:text-xl font-semibold mb-1">
