@@ -5,7 +5,7 @@ export default function Services() {
   const { services, servicesDescription } = data;
 
   return (
-    <>
+    <section id="services">
       <div className="flex flex-col items-start lg:my-40">
         <div className="container mx-auto px-4">
           <h2 className="text-red-600 text-4xl font-bold mb-2">SERVICII</h2>
@@ -33,6 +33,6 @@ export default function Services() {
           ))}
         </div>
       </div>
-    </>
+    </section>
   );
 }

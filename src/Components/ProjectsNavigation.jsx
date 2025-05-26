@@ -106,39 +106,30 @@ export default function ProjectsNavigation() {
                 <Link
                   to="/fragar"
                   className="block py-2 px-3 text-black rounded-sm md:p-0 transition-all duration-300 cursor-pointer"
-                  //   onClick={(e) => handleScrollToSection(e, "home")}
                 >
                   Acasa
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
               </li>
               <li className="relative group">
-                <a
-                  className="block py-2 px-3 text-black rounded-sm md:p-0 transition-all duration-300 cursor-pointer"
-                  onClick={(e) => handleScrollToSection(e, "about")}
+                <Link
+                  to="/fragar"
+                  className="block py-2 px-3 text-black rounded-sm md:p-0
+                  transition-all duration-300 cursor-pointer"
                 >
                   Despre noi
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-                </a>
+                </Link>
               </li>
               <li className="relative group">
-                <a
-                  className="block py-2 px-3 text-black rounded-sm md:p-0 transition-all duration-300 cursor-pointer"
-                  onClick={(e) => handleScrollToSection(e, "solutions")}
+                <Link
+                  to="/fragar"
+                  lassName="block py-2 px-3 text-black rounded-sm md:p-0 transition-all duration-300 cursor-pointer"
                 >
                   Servicii
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-                </a>
+                </Link>
               </li>
-              {/* <li className="relative group">
-                <a
-                  className="block py-2 px-3 text-black rounded-sm md:p-0 transition-all duration-300 cursor-pointer"
-                  onClick={(e) => handleScrollToSection(e, "expertiza")}
-                >
-                  Proiecte
-                  <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-                </a>
-              </li> */}
               <li className="relative group md:ml-4 hidden md:block">
                 <a href="tel:+40232250885">
                   <button className="text-white cursor-pointer bg-[#0655D1] hover:bg-blue-800 hover:font-bold focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center transition-all duration-300 hover:scale-110">
