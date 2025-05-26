@@ -8,6 +8,7 @@ const Navbar = () => {
   const [isTransparent, setIsTransparent] = useState(true); // Transparent over video
   const lastScrollPosition = useRef(0);
   const navbarRef = useRef(null);
+  const isMobile = window.innerWidth < 425;
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -67,7 +68,7 @@ const Navbar = () => {
           <span
             className={`leading-none self-center text-xl font-bold whitespace-nowrap ${textColor} transition-colors duration-300`}
           >
-            Fragar Trading
+            {isMobile ? "Fragar" : "Fragar Trading"}
           </span>
         </a>
         <div className="flex items-center space-x-3 md:space-x-0 rtl:space-x-reverse">

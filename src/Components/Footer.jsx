@@ -77,70 +77,75 @@ export default function Footer() {
           </div>
 
           {/* Navigation Links */}
-          <div className="flex flex-col md:flex-row md:space-x-12 mb-8 md:mb-0 sm:gap-10 md:gap-0">
-            <div className="footer-edit mb-6 md:mb-0 md:block flex justify-center items-center gap-10">
-              <h3 className="text-lg font-semibold mb-2">Acasă</h3>
-              <div className="bar"></div>
-              <ul className="space-y-2">
-                <li>
-                  <a href="#" className="hover:underline">
-                    Despre noi
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Servicii
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Proiecte
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="footer-edit mb-6 md:mb-0 md:block flex justify-center items-center gap-10">
-              <h3 className="text-lg font-semibold mb-2 text-center footer-text">
-                Serviciile noastre
-              </h3>
-              <div className="bar"></div>
-              <ul className="space-y-2">
-                <li>
-                  <a href="#" className="hover:underline">
-                    Antrepriză generală
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Proiectare tehnică
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Implementare BMS
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Panouri fotovoltaice
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Parcuri și spații urbane
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Construcții civile <br /> și industriale
-                  </a>
-                </li>
-              </ul>
+
+          <div className="flex-grow ">
+            {" "}
+            {/* justify-center items-center flex */}
+            <div className="flex flex-col md:flex-row md:space-x-12 mb-8 md:mb-0 sm:gap-10 md:gap-0 md:justify-end">
+              <div className="footer-edit footer-edit-home mb-6 md:mb-0 md:block flex justify-center items-center">
+                <h3 className="text-lg font-semibold mb-2">Acasă</h3>
+                <div className="bar"></div>
+                <ul className="space-y-2">
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Despre noi
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Servicii
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Proiecte
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="footer-edit footer-edit-service mb-6 md:mb-0 md:block flex justify-center items-center gap-10">
+                <h3 className="text-lg font-semibold mb-2 text-center footer-text">
+                  Serviciile noastre
+                </h3>
+                <div className="bar"></div>
+                <ul className="space-y-2">
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Antrepriză generală
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Proiectare tehnică
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Implementare BMS
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Panouri fotovoltaice
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Parcuri și spații urbane
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="hover:underline">
+                      Construcții civile <br /> și industriale
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
