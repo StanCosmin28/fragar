@@ -130,6 +130,17 @@ export default function ProjectsNavigation() {
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
               </li>
+              <li className="relative group">
+                {" "}
+                <Link
+                  to="/fragar/noutati"
+                  // onClick={console.log("European projects page")}
+                  className={`block py-2 px-3 rounded-sm md:p-0 transition-allCASTE-4 cursor-pointer`}
+                >
+                  Noutăți
+                  <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                </Link>
+              </li>
               <li className="relative group md:ml-4 hidden md:block">
                 <a href="tel:+40232250885">
                   <button className="text-white cursor-pointer bg-[#0655D1] hover:bg-blue-800 hover:font-bold focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center transition-all duration-300 hover:scale-110">

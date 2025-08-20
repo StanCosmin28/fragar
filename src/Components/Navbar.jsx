@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import data from "../Model/data";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -56,7 +57,7 @@ const Navbar = () => {
 
   const textColor = isTransparent ? "text-white" : "text-black";
   const bgColor = isTransparent ? "bg-transparent" : "bg-white";
-  const navbarClasses = `fixed w-full z-20 top-0 start-0 transition-all duration-300 ${bgColor} ${
+  const navbarClasses = `fixed w-full z-20 top-0 start-0 transition-all duration-300 z-1000 ${bgColor} ${
     isNavbarVisible ? "translate-y-0" : "-translate-y-full"
   } ${!isTransparent ? "shadow-md" : ""}`;
 
@@ -160,15 +161,16 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="relative group">
-                <a
-                  onClick={console.log("European projects page")}
+                <Link
+                  to="/fragar/noutati"
+                  // onClick={console.log("European projects page")}
                   className={`block py-2 px-3 ${
                     isMenuOpen ? "text-black" : textColor
                   } rounded-sm md:p-0 transition-allCASTE-4 cursor-pointer`}
                 >
                   Noutăți
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-                </a>
+                </Link>
               </li>
               {/*
               <li className="relative group">
