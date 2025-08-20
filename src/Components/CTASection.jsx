@@ -8,9 +8,11 @@ export default function CTASection() {
             Vrei spații moderne și eficiente? <br /> Hai să discutăm despre
             proiectul tău!
           </h2>
-          <button className="bg-red-600 hover:bg-red-800 hover:scale-105 text-white font-medium py-4 px-10 transition duration-300 cursor-pointer">
-            CONSULTANȚĂ GRATUITĂ
-          </button>
+          <a href="tel:+40232250885">
+            <button className="bg-red-600 hover:bg-red-800 hover:scale-105 text-white font-medium py-4 px-10 transition duration-300 cursor-pointer">
+              CONSULTANȚĂ GRATUITĂ
+            </button>
+          </a>
           <img
             className="max-h-80 absolute right-0 bottom-9"
             src={data.CTAsvg}

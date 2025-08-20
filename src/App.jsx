@@ -10,7 +10,7 @@ import Mission from "./Components/Mission";
 import WhatWeOffer from "./Components/WhatWeOffer";
 import Footer from "./Components/Footer";
 import CTASection from "./Components/CTASection";
-import BlogCard from "./Components/BlogCard";
+// import BlogCard from "./Components/BlogCard"; // add when bms is done
 import StackedCardsSlider from "./Components/StackedCardsSlider";
 import ProjectsNavigation from "./Components/ProjectsNavigation";
 import ProjectsHeader from "./Components/ProjectsHeader";
@@ -32,7 +32,7 @@ function App() {
               <Mission />
               <WhatWeOffer />
               <StackedCardsSlider />
-              <BlogCard />
+              {/* <BlogCard />  // add when bms is done */}
               <CTASection />
               <Footer />
             </>
@@ -45,6 +45,28 @@ function App() {
               <ProjectsNavigation />
               <ProjectsHeader />
               <ProjectsSection />
+              <CTASection />
+              <Footer />
+            </>
+          }
+        />
+
+        <Route
+          path="/fragar/noutati"
+          element={
+            <>
+              <ProjectsNavigation />
+              <CTASection />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/fragar/noutati/:id"
+          element={
+            <>
+              <ProjectsNavigation />
+              <ProjectsHeader />
               <CTASection />
               <Footer />
             </>

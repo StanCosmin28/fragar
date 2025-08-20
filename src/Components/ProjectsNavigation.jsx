@@ -124,7 +124,7 @@ export default function ProjectsNavigation() {
               <li className="relative group">
                 <Link
                   to="/fragar"
-                  lassName="block py-2 px-3 text-black rounded-sm md:p-0 transition-all duration-300 cursor-pointer"
+                  className="block py-2 px-3 text-black rounded-sm md:p-0 transition-all duration-300 cursor-pointer"
                 >
                   Servicii
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>

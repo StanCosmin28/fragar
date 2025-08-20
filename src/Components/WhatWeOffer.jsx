@@ -3,7 +3,7 @@ import "./whatWeOffer.css";
 export default function WhatWeOffer() {
   const { wwoIcons } = data;
   return (
-    <div className="py-12 px-4">
+    <div className="py-12 px-4 my-25">
       <div className="container mx-auto text-center md:text-left">
         <h2 className="text-red-500 text-4xl font-bold mb-2">
           CE OFERIM ÎN PLUS

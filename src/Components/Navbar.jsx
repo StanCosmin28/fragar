@@ -159,17 +159,18 @@ const Navbar = () => {
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
               </li>
-              {/* <li className="relative group">
+              <li className="relative group">
                 <a
+                  onClick={console.log("European projects page")}
                   className={`block py-2 px-3 ${
                     isMenuOpen ? "text-black" : textColor
                   } rounded-sm md:p-0 transition-allCASTE-4 cursor-pointer`}
-                  onClick={(e) => handleScrollToSection(e, "proiecte")}
                 >
-                  Portofoliu
+                  Noutăți
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </a>
               </li>
+              {/*
               <li className="relative group">
                 <a
                   className={`block py-2 px-3 ${

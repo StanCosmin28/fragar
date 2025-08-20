@@ -43,6 +43,7 @@ const data = {
   ],
   CTAsvg: `${baseUrl}/cta-svg.svg`,
   blogHeader: `${baseUrl}/blog-header.webp`,
+  newsHeader: `${baseUrl}/news-header.webp`,
   //   housePlan: `${baseUrl}/house-plan.svg`,
   //   housePlan2: `${baseUrl}/house-plan2.webp`,
   //   services: `${baseUrl}/services.svg`,

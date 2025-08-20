@@ -179,12 +179,12 @@ function StackedCardsSlider() {
                     {post.title}
                   </h3>
                   <p className="text-gray-600 mb-6">{post.excerpt}</p>
-                  <button className="cursor-pointer hover:scale-105 transition-all duration-600 self-start relative overflow-hidden group px-6 py-3 rounded-lg bg-[#2691EA] text-white font-medium md:mx-0 mx-auto">
+                  {/* <button className="cursor-pointer hover:scale-105 transition-all duration-600 self-start relative overflow-hidden group px-6 py-3 rounded-lg bg-[#2691EA] text-white font-medium md:mx-0 mx-auto">
                     <span className="relative z-10 group-hover:text-white transition-colors duration-500">
                       Citește mai mult
                     </span>
                     <span className="absolute inset-0 bg-[#F42223] translate-y-full group-hover:translate-y-0 transition-transform duration-500"></span>
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
@@ -211,7 +211,7 @@ function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="container py-12 px-4 sm:px-6 lg:px-8 bg-oklch/10 mx-auto"
+      className="container py-12 px-4 sm:px-6 lg:px-8 bg-oklch/10 mx-auto my-25"
     >
       <div className="max-w-[1560px] mx-auto text-left">
         <h2 className="text-3xl sm:text-4xl font-bold text-oklch mb-4 text-red-500">
@@ -221,11 +221,11 @@ function ProjectsSection() {
           Am contribuit la dezvoltarea unor clădiri instituționale, parcuri
           publice și spații industriale dotate cu tehnologie smart.
         </p>
-        <a href="/fragar/proiecte">
+        {/* <a href="/fragar/proiecte">
           <button className="cursor-pointer mb-8 px-6 py-3 rounded-lg bg-[#2691EA] text-white font-medium hover:bg-[#F42223] transition-colors duration-250">
             Vezi toate proiectelel
           </button>
-        </a>
+        </a> */}
         <StackedCardsSlider />
       </div>
     </section>

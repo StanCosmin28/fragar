@@ -1,6 +1,18 @@
 import data from "../Model/data";
 
 export default function HeaderSection() {
+  const handleScrollToSection = (e, targetId) => {
+    e.preventDefault();
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop,
+        behavior: "smooth",
+      });
+      setIsMenuOpen(false);
+    }
+  };
+
   return (
     <header className="relative w-full h-screen overflow-hidden">
       <video
@@ -26,10 +38,16 @@ export default function HeaderSection() {
           pregătite pentru viitor.
         </p>
         <div className="min-w-full justify-center flex space-x-4 md:flex-row flex-col gap-4 md:px-0 sm:px-10">
-          <button className="bg-red-600 hover:bg-red-800 hover:scale-105 text-white font-medium py-4 px-10 transition duration-300 cursor-pointer m-0">
-            CONSULTANȚĂ GRATUITĂ
-          </button>
-          <button className="border-2 border-white hover:bg-white hover:scale-105 hover:text-red-600 text-white font-medium py-2 px-6 transition duration-300 cursor-pointer">
+          <a href="tel:+40232250885">
+            <button className="bg-red-600 hover:bg-red-800 hover:scale-105 text-white font-medium py-4 px-10 transition duration-300 cursor-pointer m-0">
+              CONSULTANȚĂ GRATUITĂ
+            </button>
+          </a>
+
+          <button
+            onClick={(e) => handleScrollToSection(e, "projects")}
+            className="border-2 border-white hover:bg-white hover:scale-105 hover:text-red-600 text-white font-medium py-2 px-6 transition duration-300 cursor-pointer"
+          >
             Vezi Portofoliul
           </button>
         </div>
