@@ -15,6 +15,8 @@ import StackedCardsSlider from "./Components/StackedCardsSlider";
 import ProjectsNavigation from "./Components/ProjectsNavigation";
 import ProjectsHeader from "./Components/ProjectsHeader";
 import ProjectsSection from "./Components/ProjectsSection";
+import EuroProjects from "./Components/EuroProjects";
+import NoutatiHeader from "./Components/NoutatiHeader";
 
 function App() {
   return (
@@ -56,6 +58,8 @@ function App() {
           element={
             <>
               <ProjectsNavigation />
+              <NoutatiHeader />
+              <EuroProjects />
               <CTASection />
               <Footer />
             </>
