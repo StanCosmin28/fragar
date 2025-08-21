@@ -1,4 +1,5 @@
 import { useState } from "react";
+import stackProjectsData from "../Model/stackProjectsData";
 
 function StackedCardsSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -6,68 +7,16 @@ function StackedCardsSlider() {
   const [touchStart, setTouchStart] = useState(0);
   const [touchEnd, setTouchEnd] = useState(0);
 
-  const projects = [
-    {
-      id: 1,
-      title: "Clădire Administrativă Smart",
-      excerpt:
-        "Un sediu instituțional modern cu sisteme de automatizare energetică și senzori IoT.",
-      image:
-        "https://images.unsplash.com/photo-1635950574717-a0e150ee34bb?q=80&w=3576&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      category: "Arhitectură Instituțională",
-      date: "Iunie 2024",
-    },
-    {
-      id: 2,
-      title: "Parc Urban Ecologic",
-      excerpt:
-        "Un parc public cu iluminat solar și zone interactive pentru comunitate.",
-      image:
-        "https://plus.unsplash.com/premium_photo-1673483585941-fe3535a0b04f?q=80&w=3538&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      category: "Spații Publice",
-      date: "Martie 2025",
-    },
-    {
-      id: 3,
-      title: "Centru Industrial Inteligent",
-      excerpt:
-        "O facilitate industrială dotată cu tehnologie de monitorizare în timp real.",
-      image:
-        "https://images.unsplash.com/photo-1643175517565-2d355888e0fd?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      category: "Industrie Smart",
-      date: "Noiembrie 2024",
-    },
-    {
-      id: 4,
-      title: "Campus Educațional Verde",
-      excerpt:
-        "O clădire educațională cu panouri solare și sisteme de reciclare integrate.",
-      image:
-        "https://images.unsplash.com/photo-1635191048419-47590846219d?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      category: "Educație",
-      date: "August 2024",
-    },
-    {
-      id: 5,
-      title: "Parc Tehnologic Urban",
-      excerpt:
-        "Un spațiu public cu stații de încărcare electrică și Wi-Fi gratuit.",
-      image:
-        "https://plus.unsplash.com/premium_photo-1673453455523-7390933a58f2?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      category: "Tehnologie Urbană",
-      date: "Mai 2025",
-    },
-  ];
-
   const nextSlide = () => {
     setDirection("right");
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % stackProjectsData.length);
   };
 
   const prevSlide = () => {
     setDirection("left");
     setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + projects.length) % projects.length
+      (prevIndex) =>
+        (prevIndex - 1 + stackProjectsData.length) % stackProjectsData.length
     );
   };
 
@@ -89,7 +38,7 @@ function StackedCardsSlider() {
   };
 
   const getCardIndex = (index) => {
-    return (currentIndex + index) % projects.length;
+    return (currentIndex + index) % stackProjectsData.length;
   };
 
   return (
@@ -142,7 +91,7 @@ function StackedCardsSlider() {
       >
         {[0, 1, 2].map((offset) => {
           const index = getCardIndex(offset);
-          const post = projects[index];
+          const post = stackProjectsData[index];
 
           const zIndex = 10 - offset;
           const opacity = 1 - offset * 0.2;
@@ -193,7 +142,7 @@ function StackedCardsSlider() {
       </div>
 
       <div className="absolute bottom-4 left-0 right-0 flex justify-center space-x-2">
-        {projects.map((_, index) => (
+        {stackProjectsData.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
