@@ -3,13 +3,12 @@ import { Link } from "react-router-dom";
 
 const EuroProjectCard = ({ title, byline, id }) => (
   <Link
-    to={`/fragar/noutati/${id}`} // Simplified to :id
+    to={`/fragar/noutati/${id}`}
     className="w-full h-64 bg-[#CAE7FF] rounded-lg flex flex-col justify-center items-center text-center p-4 lg:p-6"
   >
     <div className="flex flex-col items-center">
       <div className="w-12 h-12 bg-gray-300 rounded flex items-center justify-center mb-4">
         <img src={euroProjects[0].projectIcon} alt="📄" />{" "}
-        {/* Adjust if projectIcon is elsewhere */}
       </div>
       <p className="text-gray-700 text-sm lg:text-base">{title}</p>
       <p className="text-gray-500 text-xs lg:text-sm mt-1">{byline}</p>
@@ -29,7 +28,7 @@ export default function EuroProjects() {
             key={project.id}
             title={project.title}
             byline={project.byline}
-            id={project.id} // Pass id for the link
+            id={project.id}
           />
         ))}
       </div>
