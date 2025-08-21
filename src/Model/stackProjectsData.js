@@ -37,7 +37,7 @@ const stackProjectsData = [
     id: 5,
     title: "Hotel Vișoianu Iași",
     excerpt:
-      "HVAC, detecție incendiu, senzori IDSAI, supraveghere video, control acces (cartelă), iluminat artificial.",
+      "HVAC | detecție incendiu | senzori IDSAI | supraveghere video | control acces (cartelă) | iluminat artificial.",
     image: `${baseUrl}/visoianu-1.webp`,
     category: "Hospitalitate",
     date: "Iulie 2025",
@@ -46,7 +46,7 @@ const stackProjectsData = [
     id: 6,
     title: "Hotel Vișoianu Iași (Sistem Apel SORA)",
     excerpt:
-      "Sistem apel SORA, IDSAI, supraveghere video, control acces (cartelă), iluminat artificial.",
+      "Sistem apel SORA | IDSAI | supraveghere video | control acces (cartelă) | iluminat artificial.",
     image: `${baseUrl}/visoianu-2.webp`,
     category: "Hospitalitate",
     date: "Iulie 2025",
@@ -55,7 +55,7 @@ const stackProjectsData = [
     id: 7,
     title: "Complex Rezidențial Poitiers Iași",
     excerpt:
-      "Interfonie individuală, termostate, control acces, iluminat artificial, senzoristică (inundație, fum, contact magnetic).",
+      "Interfonie individual |, termostate | control acces | iluminat artificial | senzoristică (inundație | fum | contact magnetic).",
     image: `${baseUrl}/poitiers.webp`,
     category: "Rezidențial",
     date: "Iunie 2025",
@@ -64,7 +64,7 @@ const stackProjectsData = [
     id: 8,
     title: "Complex Rezidențial Evergreen Iași",
     excerpt:
-      "Interfonie individuală, senzoristică (inundație, fum, contact magnetic).",
+      "Interfonie individuală | senzoristică (inundație | fum | contact magnetic).",
     image: `${baseUrl}/evergreen.webp`,
     category: "Rezidențial",
     date: "Mai 2025",
