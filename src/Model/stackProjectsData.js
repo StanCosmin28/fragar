@@ -6,7 +6,7 @@ const stackProjectsData = [
     title: "Loc de joacă pentru copii Vaslui",
     excerpt: "Renovare și instalare supraveghere video.",
     image: `${baseUrl}/loc-joaca.webp`,
-    category: "Spații Publice",
+    category: "Vaslui",
     date: "Octombrie 2025",
   },
   {
@@ -22,7 +22,7 @@ const stackProjectsData = [
     title: "Școala Gimnazială Elena Cuza Iași",
     excerpt: "Iluminat artificial și senzoristică.",
     image: `${baseUrl}/scoala-elena-cuza.webp`,
-    category: "Educație",
+    Iași: "Educație",
     date: "Septembrie 2025",
   },
   {
@@ -30,7 +30,7 @@ const stackProjectsData = [
     title: "Institutul de Psihiatrie SOCOLA Iași",
     excerpt: "Detecție incendiu și control acces.",
     image: `${baseUrl}/socola.webp`,
-    category: "Sănătate",
+    category: "Iași",
     date: "August 2025",
   },
   {
@@ -39,7 +39,7 @@ const stackProjectsData = [
     excerpt:
       "HVAC | detecție incendiu | senzori IDSAI | supraveghere video | control acces (cartelă) | iluminat artificial.",
     image: `${baseUrl}/visoianu-1.webp`,
-    category: "Hospitalitate",
+    category: "Iași",
     date: "Iulie 2025",
   },
   {
@@ -48,7 +48,7 @@ const stackProjectsData = [
     excerpt:
       "Sistem apel SORA | IDSAI | supraveghere video | control acces (cartelă) | iluminat artificial.",
     image: `${baseUrl}/visoianu-2.webp`,
-    category: "Hospitalitate",
+    category: "Iași",
     date: "Iulie 2025",
   },
   {
@@ -57,7 +57,7 @@ const stackProjectsData = [
     excerpt:
       "Interfonie individual |, termostate | control acces | iluminat artificial | senzoristică (inundație | fum | contact magnetic).",
     image: `${baseUrl}/poitiers.webp`,
-    category: "Rezidențial",
+    category: "Iași",
     date: "Iunie 2025",
   },
   {
@@ -66,7 +66,7 @@ const stackProjectsData = [
     excerpt:
       "Interfonie individuală | senzoristică (inundație | fum | contact magnetic).",
     image: `${baseUrl}/evergreen.webp`,
-    category: "Rezidențial",
+    category: "Iași",
     date: "Mai 2025",
   },
 ];
