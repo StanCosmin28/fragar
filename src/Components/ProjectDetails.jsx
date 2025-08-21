@@ -23,7 +23,7 @@ export default function ProjectDetail() {
       </div>
       <div className="w-full max-w-4xl flex flex-row justify-end mx-auto mb-20">
         <Link
-          className="py-2 px-4 border-1 rounded-lg bg-blue-600 text-white hover:scale-105 transition duration-200"
+          className="py-2 px-4 border-1 rounded-lg bg-blue-600 text-white hover:scale-105 transition duration-200 mr-2 md:mr-6 "
           to="/fragar/noutati"
         >
           Inapoi la proiecte
