@@ -1,26 +1,3 @@
-// import { useParams } from "react-router-dom";
-// import ProjectDescription from "./ProjectDescription";
-// import { projects } from "../Model/euroProjects";
-
-// export default function ProjectDetail() {
-//   const { id } = useParams();
-//   const projectId = parseInt(id.replace("proiect-", ""));
-//   const project = projects.find((p) => p.id === projectId);
-
-//   if (!project) {
-//     return (
-//       <div className="container mx-auto py-10 text-center text-gray-600">
-//         Proiectul nu a fost găsit.
-//       </div>
-//     );
-//   }
-
-//   return (
-//     <div className="container mx-auto py-10">
-//       <ProjectDescription data={project} />
-//     </div>
-//   );
-// }
 import { useParams } from "react-router-dom";
 import ProjectDescription from "./ProjectDescription";
 import euroProjects from "../Model/euroProjects";
