@@ -16,7 +16,7 @@ import ProjectsNavigation from "./Components/ProjectsNavigation";
 import ProjectsHeader from "./Components/ProjectsHeader";
 import ProjectsSection from "./Components/ProjectsSection";
 import EuroProjects from "./Components/EuroProjects";
-import NoutatiHeader from "./Components/NoutatiHeader";
+import NewsHeader from "./Components/NewsHeader";
 
 function App() {
   return (
@@ -58,7 +58,7 @@ function App() {
           element={
             <>
               <ProjectsNavigation />
-              <NoutatiHeader />
+              <NewsHeader />
               <EuroProjects />
               <CTASection />
               <Footer />
