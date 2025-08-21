@@ -46,7 +46,7 @@ export default function HeaderSection() {
 
           <button
             onClick={(e) => handleScrollToSection(e, "projects")}
-            className="border-2 border-white hover:bg-white hover:scale-105 hover:text-red-600 text-white font-medium py-2 px-6 transition duration-300 cursor-pointer"
+            className="self-center md:self-auto w-auto px-8 py-3 border-2 border-white hover:bg-white hover:scale-105 hover:text-red-600 text-white font-medium transition duration-300 cursor-pointer"
           >
             Vezi Portofoliul
           </button>

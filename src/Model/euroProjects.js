@@ -1,20 +1,21 @@
 const euroProjects = [
   {
-    id: 1,
+    // id: "lansare-proiect_Finanțare-nerambursabilă_pentru-SC_FRAGAR_TRADING_SRL",
+    id: "proiect-1",
     title:
-      "Lansare proiect / Finantare nerambursabila pentru SC FRAGAR TRADING SRL",
+      "Lansare proiect / Finanțare nerambursabilă pentru SC FRAGAR TRADING SRL",
     byline: "by admin | May 19, 2023",
     paragraphs: [
-      "SC FRAGAR TRADING S.R.L. anuntă inceperea activitatilor proiectului 'MiniBRAIN - Echipament de Gestiuune a clădirilor inteligente pe platforma lot.' Cod SMIS 156337.",
-      "Proiectul va fi implementat prin intermediul unei finantari nerambursabile acordate prin Regio Programul Operational Competitivitate 2014 - 2020, POC/1033/1/3/ Stimularea cererii intreprinderilor pentru inovare prin proiecte de CDI derulate de intreprinderi individual sau in parteneriat cu institute de CD si universitati, in scopul inovarii de procese si de produse in sectoarele economice care prezinta potential de crestere, axa prioritara 'Cercetare, dezvolare tehnologica si inovare (CDI) in sprijinul competitivitatii economice si dezvoltarii afacerilor'.",
-      "SC FRAGAR TRADING S.R.L a incheiat un contract de finantare cu Ministerul Cercetarii, Inovarii si Digitalizarii, in calitate de Autoritate de Management si cu Agentia pentru Dezvoltare Regionala Nord-Est in calitate de Organism Intermediar pentru Programul Operational Competitivitate la nivelul regiunii lasi.",
-      "Obiectivul general al proiectului este cresterea lui MiniBRAIN, un echipament Hard si Soft pentru gestionarea descentralizata a unei cladiri inteligente. Acest echipament din punct de vedere al infrastructurii hardware va fi construit pe o platforma lot de tip Raspberry Pi, si va trebui sa gestioneze un subsistem (subsisternul de iluminat, subsistemul de control acces, subsistemul de ventilatie etc.) al unei 'Cladiri Inteligente' si, cladiri sustenabile.",
-      "Proiectul va fi derulat in lasi, in perioada 17 februarie 2023 - 31 decembrie 2023, cu o valoare totala de 11.396.133,00 de Ron din care finantarea nerambursabila este de 6.209.626,00 de Ron.",
-      "Proiect cofinantat din Fondul European de Dezvoltare Regionala prin Programul Operational Competitivitate 2014-2020.",
+      "SC FRAGAR TRADING S.R.L anunță începerea activităților proiectului „MiniBRAIN – Echipament de Gestiune a clădirilor inteligente pe platforma Iot“, Cod SMIS 156337.",
+      "Proiectul va fi implementat prin intermediul unei finanțări nerambursabile acordate prin Regio Programul Operațional Competitivitate 2014 – 2020, POC/1033/1/3/ Stimularea cererii întreprinderilor pentru inovare prin proiecte CDI derulate de întreprinderi individual sau în parteneriat cu institute de CD şi universităţi, în scopul inovării de procese şi de produse în sectoarele economice care prezintă potenţial de creştere, axa prioritară „Cercetare, dezvoltare tehnologică şi inovare (CDI) în sprijinul competitivităţii economice și dezvoltării afacerilor“.",
+      "SC FRAGAR TRADING S.R.L a încheiat un contract de finanțare cu Ministerul Cercetării, Inovării și Digitalizării, în calitate de Autoritate de Management și cu Agenția pentru Dezvoltare Regională Nord-Est în calitate de Organism Intermediar pentru Programul Operațional Competitivitate la nivelul regiunii Iași.",
+      "Obiectivul general al proiectului este creșterea lui MiniBRAIN, un echipament Hard și Soft pentru gestionarea descentralizată a unei clădiri inteligente. Acest echipament din punct de vedere al infrastructurii hardware va fi construit pe o platforma Iot de tip Rasbery Pi, și va trebui să gestioneze un subsistem (subsistemul de iluminat, subsistemul de control acces, subsistemul de ventilație etc.) al unei „clădiri inteligente“ şi „clădiri sustenabile“.",
+      "Proiectul va fi derulat în Iași, în perioada 17 februarie 2023 – 31 decembrie 2023, cu o valoare totală de 11.396,133.00 de Ron din care finanțarea nerambursabilă este de 6.209.626,00 de Ron.",
+      "Proiect cofinanțat din Fondul European de Dezvoltare Regională prin Programul Operațional Competitivitate 2014-2020.",
     ],
-    bulletPoints: ["Bullet point 1", "Bullet point 2"],
+    bulletPoints: [],
     contact: {
-      name: "Francu Catalin",
+      name: "Frâncu Cătălin",
       website: "www.high-quality.ro",
       email: "projects@high-quality.ro",
       tel: "+40232250885",
@@ -22,53 +23,50 @@ const euroProjects = [
     },
   },
   {
-    id: 2,
+    // id: "lansare-proiect_Finanțare-nerambursabilă_pentru-SC_FRAGAR_TRADING_SRL_înscris-în_cadrul-măsurii_Granturi-pentru-capital-de-lucru-instituită-prin-OUG_nr_130/2020",
+    id: "proiect-2",
     title:
-      "Lansare proiect / Finantare nerambursabila pentru SC FRAGAR TRADING SRL inscris in cadrul Măsurii „Granturi pentru capital de lucru” instituită prin OUG nr. 130/2020",
+      "Lansare proiect / Finanțare nerambursabilă pentru SC FRAGAR TRADING SRL înscris în cadrul Măsurii „Granturi pentru capital de lucru”, instituită prin OUG nr. 130/2020",
     byline: "by admin | May 12, 2021",
     paragraphs: [
-      "SC FRAGAR TRADING S.R.L. anuntă inceperea activitatilor proiectului inscris in cadrul Măsurii „Granturi pentru capital de lucru” instituită prin OUG nr. 130/2020.",
-      "Proiectul vizeaza sustinerea activitatilor economice prin finantare nerambursabila.",
+      "Fragar Trading SRL anunta lansarea proiectul cu titlul „Grant” proiect nr. RUE M2-9456 înscris în cadrul Măsurii ”Granturi pentru capital de lucru”, instituită prin OUG nr 130/2020.",
+      "Proiectul se derulează pe o perioada de maxim 12 luni, începând cu data semnării contractului de finanțare cu Ministerul Economiei, Energiei si Mediului de Afaceri/ AIMMAIPE, respectiv 29.04.2021.",
+      "Obiectivul proiectului îl reprezintă sprijinirea Fragar Trading SRL, sub formă de grant pentru capital de lucru, prin măsura “Granturi pentru capital de lucru”, implementată de către Ministerul Economiei, Energiei şi Mediului de Afaceri (MEEMA) şi Agenţia pentru IMM, Atragere de Investiţii şi Promovarea Exportului (AIMMAIPE) în conformitate cu prevederile Ordonanţei de Urgenţă a Guvernului nr.130/2020 privind unele măsuri pentru acordarea de sprijin financiar din fonduri externe nerambursabile, aferente Programului Operaţional Competitivitate 2014-2020, în contextul crizei provocate de COVID-19, cu completările şi modificările ulterioare.",
+      "Proiectul are printre principalele rezultate, următoarele: -menținerea activității pe o perioada de minim 6 luni, -menținerea numărului locurilor de munca față de data depunerii cererii, pe o perioadă de minimum 6 luni, la data acordării granturilor.",
+      "Proiectul va fi implementat în Iași, str. Aleea Rozelor Nr. 6A, pe o durată de 12 luni.",
+      "Valoarea proiectului este de 237,559.41 Ron (valoarea totala) din care : 206573,4 Ron grant si 30986,01 Ron cofinanțare.",
+      "Proiect cofinanțat din Fondul European de Dezvoltare Regionala prin Programul Operațional Competitivitate 2014-2020.",
     ],
-    bulletPoints: ["Sustinere capital de lucru", "Dezvoltare economica"],
+    bulletPoints: [],
     contact: {
-      name: "Ion Popescu",
-      website: "www.fragar-grants.ro",
-      email: "grants@fragar.ro",
-      tel: "+40232250900",
-      fax: "+40232250901",
+      name: "Frâncu Cătălin",
+      website: "www.high-quality.ro",
+      email: "projects@high-quality.ro",
+      tel: "+40232250885",
+      fax: "+40232250886",
     },
   },
   {
-    id: 3,
+    // id: "lansare-proiect_finanțare-nerambursabilă-pentru_SC_FRAGAR_TRADING_SRL_DIGI_TOUCH_NEXTGEN",
+    id: "proiect-3",
     title:
-      "Lansare proiect / Finantare nerambursabila pentru SC FRAGAR TRADING SRL DIGI TOUCH NEXTGEN",
+      "Lansare proiect / Finanțare nerambursabilă pentru SC FRAGAR TRADING SRL DIGI TOUCH NEXTGEN",
     byline: "by admin | Iulie 28, 2025",
     paragraphs: [
-      "SC FRAGAR TRADING S.R.L. lansează proiectul DIGI TOUCH NEXTGEN pentru modernizarea serviciilor digitale.",
-      "Proiectul include implementarea unor tehnologii inovatoare finantate prin fonduri europene.",
+      "SC FRAGAR TRADING SRL, cu sediul în Iași, Str. Aleea Rozelor, nr. 6A, Demisol, în parteneriat cu UNIVERSITATEA „ȘTEFAN CEL MARE” DIN SUCEAVA, anunță începerea activităților proiectului „DIGI TOUCH NEXTGEN”, Cod SMIS 338580.",
+      "Proiectul este finanțat prin Programul Regional Nord-Est 2021-2027, Cod apel „PRNE/515/PRNE_P1/OP1”, Titlu apel „ PR/NE/2024/P1/RSO1.1_RSO1.3/1 - PROIECTE DE CDI ȘI INVESTIȚII ÎN IMM”.",
+      "Valoarea totală a proiectului este de 43.277.036,67 lei.",
+      "Proiectul va fi implementat pe o durată de 54 luni. Etapa I 28.07. 2025 – 30.06.2028 și Etapa II 01.07.2028- 31.12.2029.",
+      "Obiectiv general: Dezvoltarea până la TRL 7 și lansarea pe piață a unui întrerupător inteligent de clasa A și a unui termostat cu touchscreen, prin construirea unei facilități de producție moderne.",
+      "Obiective specifice:",
     ],
-    bulletPoints: ["Tehnologii digitale", "Modernizare servicii"],
-    contact: {
-      name: "Maria Ionescu",
-      website: "www.fragar-digital.ro",
-      email: "digital@fragar.ro",
-      tel: "+40232251000",
-      fax: "+40232251001",
-    },
-  },
-  {
-    id: 4,
-    title:
-      "Lansare proiect / Finantare nerambursabila pentru SC FRAGAR TRADING SRL",
-    byline: "by admin | May 19, 2023",
-    paragraphs: [
-      "SC FRAGAR TRADING S.R.L. anuntă un nou proiect de finantare nerambursabila.",
-      "Acest proiect vizeaza imbunatatirea infrastructurii interne.",
+    bulletPoints: [
+      "Dezvoltarea prototipurilor funcționale pentru întrerupătorul inteligent de clasa A și termostatul inteligent cu touchscreen.",
+      "Implementarea unei infrastructuri de producție care să includă construcția clădirii și achiziția echipamentelor necesare.",
+      "Stabilirea canalelor de distribuție și a parteneriatelor strategice.",
     ],
-    bulletPoints: ["Imbunatatire infrastructura", "Dezvoltare sustenabila"],
     contact: {
-      name: "Francu Catalin",
+      name: "Frâncu Cătălin",
       website: "www.high-quality.ro",
       email: "projects@high-quality.ro",
       tel: "+40232250885",
@@ -76,4 +74,5 @@ const euroProjects = [
     },
   },
 ];
+
 export default euroProjects;

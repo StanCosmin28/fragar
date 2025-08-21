@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 
 export default function ProjectDetail() {
   const { id } = useParams();
-  const projectId = parseInt(id);
+  //   const projectId = parseInt(id);
+  const projectId = id;
   const project = euroProjects.find((p) => p.id === projectId);
 
   if (!project) {

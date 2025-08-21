@@ -18,6 +18,7 @@ import ProjectsSection from "./Components/ProjectsSection";
 import EuroProjects from "./Components/EuroProjects";
 import NewsHeader from "./Components/NewsHeader";
 import ProjectDetail from "./Components/ProjectDetails";
+import ScrollToTop from "./Components/ScrollToTop";
 // import ProjectDescription from "./Components/ProjectDescription";
 
 // import projects from "./Model/euroProjects";
@@ -26,6 +27,7 @@ import ProjectDetail from "./Components/ProjectDetails";
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route
           path="/fragar"
@@ -57,30 +59,6 @@ function App() {
             </>
           }
         />
-
-        {/* <Route
-          path="/fragar/noutati"
-          element={
-            <>
-              <ProjectsNavigation />
-              <NewsHeader />
-              <EuroProjects />
-              <CTASection />
-              <Footer />
-            </>
-          }
-        />
-        <Route
-          path="/fragar/noutati/:id"
-          element={
-            <>
-              <ProjectsNavigation />
-              <ProjectDescription data={projects} />
-              <CTASection />
-              <Footer />
-            </>
-          }
-        /> */}
         <Route
           path="/fragar/noutati"
           element={
@@ -99,7 +77,6 @@ function App() {
             <>
               <ProjectsNavigation />
               <ProjectDetail />
-
               <CTASection />
               <Footer />
             </>
