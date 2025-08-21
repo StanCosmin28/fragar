@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 // import { HashRouter as Router, Routes, Route } from "react-router-dom"; // change this || HasRouter is for GitHub Pages bcs there is no server to the app || on plesk you can use BrowserRouter
 import HeaderSection from "./Components/HeaderSection";
 import Navbar from "./Components/Navbar";
@@ -17,6 +17,11 @@ import ProjectsHeader from "./Components/ProjectsHeader";
 import ProjectsSection from "./Components/ProjectsSection";
 import EuroProjects from "./Components/EuroProjects";
 import NewsHeader from "./Components/NewsHeader";
+import ProjectDetail from "./Components/ProjectDetails";
+// import ProjectDescription from "./Components/ProjectDescription";
+
+// import projects from "./Model/euroProjects";
+// import ProjectsList from "./Components/ProjectList";
 
 function App() {
   return (
@@ -53,6 +58,29 @@ function App() {
           }
         />
 
+        {/* <Route
+          path="/fragar/noutati"
+          element={
+            <>
+              <ProjectsNavigation />
+              <NewsHeader />
+              <EuroProjects />
+              <CTASection />
+              <Footer />
+            </>
+          }
+        />
+        <Route
+          path="/fragar/noutati/:id"
+          element={
+            <>
+              <ProjectsNavigation />
+              <ProjectDescription data={projects} />
+              <CTASection />
+              <Footer />
+            </>
+          }
+        /> */}
         <Route
           path="/fragar/noutati"
           element={
@@ -70,7 +98,8 @@ function App() {
           element={
             <>
               <ProjectsNavigation />
-              <ProjectsHeader />
+              <ProjectDetail />
+
               <CTASection />
               <Footer />
             </>

@@ -65,12 +65,11 @@ const Navbar = () => {
     <nav ref={navbarRef} className={navbarClasses}>
       <div className="max-w-screen-xxl flex flex-wrap items-center justify-between mx-auto p-4 xl:px-20">
         <a href="" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={data.logo} className="h-8" alt="Fragar" />
-          <span
-            className={`leading-none self-center text-xl font-bold whitespace-nowrap ${textColor} transition-colors duration-300`}
-          >
-            {isMobile ? "Fragar" : "Fragar Trading"}
-          </span>
+          <img
+            className="h-8"
+            src={isTransparent ? data.logoWhite : data.logoDark}
+            alt="Fragar Trading"
+          />
         </a>
         <div className="flex items-center space-x-3 md:space-x-0 rtl:space-x-reverse">
           <a href="tel:+40232250885" className="md:hidden">
@@ -114,18 +113,6 @@ const Navbar = () => {
             id="navbar-sticky"
           >
             <ul className="flex flex-col p-4 md:p-0 font-bold bg-white text-black md:bg-transparent md:text-inherit rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:items-center">
-              {/* <li className="relative group">
-                <a
-                  className={`block py-2 px-3 ${
-                    isMenuOpen ? "text-black" : textColor
-                  } rounded-sm md:p-0 transition-all duration-300 cursor-pointer`}
-                  aria-current="page"
-                  onClick={(e) => handleScrollToSection(e, "about")}
-                >
-                  Acasa
-                  <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-                </a>
-              </li> */}
               <li className="relative group">
                 <a
                   className={`block py-2 px-3 ${
@@ -163,7 +150,6 @@ const Navbar = () => {
               <li className="relative group">
                 <Link
                   to="/fragar/noutati"
-                  // onClick={console.log("European projects page")}
                   className={`block py-2 px-3 ${
                     isMenuOpen ? "text-black" : textColor
                   } rounded-sm md:p-0 transition-allCASTE-4 cursor-pointer`}
@@ -172,25 +158,12 @@ const Navbar = () => {
                   <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
               </li>
-              {/*
-              <li className="relative group">
-                <a
-                  className={`block py-2 px-3 ${
-                    isMenuOpen ? "text-black" : textColor
-                  } rounded-sm md:p-0 transition-all duration-300 cursor-pointer`}
-                  onClick={(e) => handleScrollToSection(e, "blog")}
-                >
-                  Blog
-                  <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
-                </a>
-              </li> */}
               <li className="relative group md:ml-4 hidden md:block">
                 <a href="tel:+40232250885">
                   <button className="text-white cursor-pointer bg-[#0655D1] hover:bg-blue-800 hover:font-bold focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center transition-all duration-300 hover:scale-110">
                     <span className="relative z-10 group-hover:text-white transition-colors duration-500">
                       Contact
                     </span>
-                    {/* <span className="absolute inset-0 bg-[#F42223] translate-y-full group-hover:translate-y-0 transition-transform duration-800 rounded-full scale-120"></span> */}
                   </button>
                 </a>
               </li>
