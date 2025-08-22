@@ -59,7 +59,7 @@ function App() {
             </>
           }
         />
-        {/* <Route
+        <Route
           path="/noutati"
           element={
             <>
@@ -81,7 +81,7 @@ function App() {
               <Footer />
             </>
           }
-        /> */}
+        />
       </Routes>
     </Router>
   );
