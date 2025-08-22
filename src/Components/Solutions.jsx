@@ -6,7 +6,7 @@ export default function Solutions() {
           <div className="gap-4 flex-1 flex-col bg-[#1E1D23] w-full h-full items-center justify-center flex p-8 z-100 hover:bg-[#2691EA] transition-all duration-200 group cursor-pointer">
             <div className="flex w-full justify-center md:justify-start mb-4">
               <svg
-                className="w-25 h-25 md:w-20 md:h-20 fill-[#20CFFF] group-hover:fill-white"
+                className="w-20 h-20 md:w-15 md:h-15 fill-[#20CFFF] group-hover:fill-white"
                 viewBox="0 0 48 46"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ export default function Solutions() {
           <div className="gap-4 flex-1 flex-col bg-[#1E1D23] w-full h-full items-center justify-center flex p-8 z-100 hover:bg-[#2691EA] transition-all duration-200 group cursor-pointer">
             <div className="flex w-full justify-center md:justify-start mb-4">
               <svg
-                className="w-25 h-25 md:w-20 md:h-20 fill-[#20CFFF] group-hover:fill-white"
+                className="w-20 h-20 md:w-15 md:h-15 fill-[#20CFFF] group-hover:fill-white"
                 viewBox="0 0 52 52"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -50,7 +50,7 @@ export default function Solutions() {
           <div className="gap-4 flex-1 flex-col bg-[#1E1D23] w-full h-full items-center justify-center flex p-8 z-100 hover:bg-[#2691EA] transition-all duration-200 group cursor-pointer">
             <div className="flex w-full justify-center md:justify-start mb-4 transition-all duration-200">
               <svg
-                className="w-25 h-25 md:w-20 md:h-20 fill-[#20CFFF] group-hover:fill-white"
+                className="w-20 h-20 md:w-15 md:h-15 fill-[#20CFFF] group-hover:fill-white"
                 viewBox="0 0 38 47"
                 xmlns="http://www.w3.org/2000/svg"
               >
