@@ -6,7 +6,7 @@ const { projectIcon } = { ...data };
 
 const EuroProjectCard = ({ title, byline, id }) => (
   <Link
-    to={`/fragar/noutati/${id}`}
+    to={`/noutati/${id}`}
     className="w-full h-auto bg-[#CAE7FF] rounded-2xl flex flex-col justify-center items-center text-center p-4 lg:p-20 hover:scale-103 transition duration-200"
   >
     <div className="flex flex-col items-center gap-2">

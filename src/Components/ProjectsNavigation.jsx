@@ -52,7 +52,7 @@ export default function ProjectsNavigation() {
     <nav ref={navbarRef} className={navbarClasses}>
       <div className="max-w-screen-xxl flex flex-wrap items-center justify-between mx-auto p-4 xl:px-20">
         <Link
-          to="/fragar/"
+          to="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img className="h-8" src={data.logoDark} alt="Fragar Trading" />
@@ -106,7 +106,7 @@ export default function ProjectsNavigation() {
             <ul className="flex flex-col p-4 md:p-0 font-bold bg-white text-black md:bg-transparent md:text-black rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:items-center">
               <li className="relative group">
                 <Link
-                  to="/fragar"
+                  to="/"
                   className="block py-2 px-3 text-black rounded-sm md:p-0 transition-all duration-300 cursor-pointer"
                 >
                   Acasă
@@ -115,7 +115,7 @@ export default function ProjectsNavigation() {
               </li>
               <li className="relative group">
                 <Link
-                  to="/fragar"
+                  to="/"
                   className="block py-2 px-3 text-black rounded-sm md:p-0
                   transition-all duration-300 cursor-pointer"
                 >
@@ -125,7 +125,7 @@ export default function ProjectsNavigation() {
               </li>
               <li className="relative group">
                 <Link
-                  to="/fragar"
+                  to="/"
                   className="block py-2 px-3 text-black rounded-sm md:p-0 transition-all duration-300 cursor-pointer"
                 >
                   Servicii
@@ -135,7 +135,7 @@ export default function ProjectsNavigation() {
               <li className="relative group">
                 {" "}
                 <Link
-                  to="/fragar/noutati"
+                  to="//noutati"
                   // onClick={console.log("European projects page")}
                   className={`block py-2 px-3 rounded-sm md:p-0 transition-allCASTE-4 cursor-pointer`}
                 >

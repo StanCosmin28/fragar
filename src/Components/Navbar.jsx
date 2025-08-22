@@ -149,7 +149,7 @@ const Navbar = () => {
               </li>
               <li className="relative group">
                 <Link
-                  to="/fragar/noutati"
+                  to="/noutati"
                   className={`block py-2 px-3 ${
                     isMenuOpen ? "text-black" : textColor
                   } rounded-sm md:p-0 transition-allCASTE-4 cursor-pointer`}
