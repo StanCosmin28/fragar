@@ -8,10 +8,10 @@ export default function Footer() {
           {/* Logo and Contact Info */}
           <div className="mb-8 md:mb-0">
             <div className="flex items-center space-x-3 mb-4">
-              <img src={data.logo} className="h-8" alt="Fragar Trading" />
-              <span className="text-xl font-bold">Fragar Trading</span>
+              <img src={data.logoWhite} className="h-8" alt="Fragar Trading" />
+              {/* <span className="text-xl font-bold">Fragar Trading</span> */}
             </div>
-            <h3 className="text-lg font-semibold mb-2">
+            <h3 className="text-lg font-semibold mb-8">
               Construim Clădiri și Spații Smart pentru un Viitor Eficient și
               Sustenabil.
             </h3>
