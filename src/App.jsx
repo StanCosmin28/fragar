@@ -30,7 +30,7 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route
-          path="/fragar"
+          path="/"
           element={
             <>
               <Navbar />
@@ -48,7 +48,7 @@ function App() {
           }
         />
         <Route
-          path="/fragar/proiecte"
+          path="/proiecte"
           element={
             <>
               <ProjectsNavigation />
@@ -60,7 +60,7 @@ function App() {
           }
         />
         <Route
-          path="/fragar/noutati"
+          path="/noutati"
           element={
             <>
               <ProjectsNavigation />
@@ -72,7 +72,7 @@ function App() {
           }
         />
         <Route
-          path="/fragar/noutati/:id"
+          path="/noutati/:id"
           element={
             <>
               <ProjectsNavigation />
