@@ -117,9 +117,9 @@ function StackedCardsSlider() {
                   />
                   {/* <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-[#F42223]/30 to-transparent"></div> */}
                   <div className="absolute bottom-4 left-4 text-white">
-                    <span className="bg-[#2691EA] text-xs font-bold uppercase tracking-wider px-2 py-1 rounded">
+                    {/* <span className="bg-[#2691EA] text-xs font-bold uppercase tracking-wider px-2 py-1 rounded">
                       {post.category}
-                    </span>
+                    </span> */}
                     <p className="text-sm mt-2">{post.date}</p>
                   </div>
                 </div>

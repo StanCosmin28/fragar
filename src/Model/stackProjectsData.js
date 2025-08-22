@@ -3,7 +3,7 @@ const baseUrl = "https://stancosmin28.github.io/fragar";
 const stackProjectsData = [
   {
     id: 1,
-    title: "Loc de joacă pentru copii Vaslui",
+    title: "Loc de joacă pentru copii, Vaslui",
     excerpt: "Renovare și instalare supraveghere video.",
     image: `${baseUrl}/loc-joaca.webp`,
     category: "Vaslui",
@@ -11,7 +11,7 @@ const stackProjectsData = [
   },
   {
     id: 2,
-    title: "Loc de joacă pentru copii Pașcani",
+    title: "Loc de joacă pentru copii, Pașcani",
     excerpt: "Renovare și montare stâlpi de iluminat.",
     image: `${baseUrl}/loc-joaca.webp`,
     category: "Iași",
@@ -19,7 +19,7 @@ const stackProjectsData = [
   },
   {
     id: 3,
-    title: "Școala Gimnazială Elena Cuza Iași",
+    title: "Școala Gimnazială Elena Cuza, Iași",
     excerpt: "Iluminat artificial și senzoristică.",
     image: `${baseUrl}/scoala-elena-cuza.webp`,
     category: "Iași",
@@ -27,7 +27,7 @@ const stackProjectsData = [
   },
   {
     id: 4,
-    title: "Institutul de Psihiatrie SOCOLA Iași",
+    title: "Institutul de Psihiatrie SOCOLA, Iași",
     excerpt: "Detecție incendiu și control acces.",
     image: `${baseUrl}/socola.webp`,
     category: "Iași",
@@ -35,7 +35,7 @@ const stackProjectsData = [
   },
   {
     id: 5,
-    title: "Hotel Vișoianu Iași",
+    title: "Hotel Vișoianu, Iași",
     excerpt:
       "HVAC | detecție incendiu | senzori IDSAI | supraveghere video | control acces (cartelă) | iluminat artificial.",
     image: `${baseUrl}/visoianu-1.webp`,
@@ -44,16 +44,16 @@ const stackProjectsData = [
   },
   {
     id: 6,
-    title: "Hotel Vișoianu Iași (Sistem Apel SORA)",
+    title: "Hotel Vișoianu (Sistem Apel SORA), Iași",
     excerpt:
       "Sistem apel SORA | IDSAI | supraveghere video | control acces (cartelă) | iluminat artificial.",
-    image: `${baseUrl}/visoianu-2.webp`,
+    image: `${baseUrl}/regina-maria.webp`,
     category: "Iași",
     // date: "Iulie 2025",
   },
   {
     id: 7,
-    title: "Complex Rezidențial Poitiers Iași",
+    title: "Complex Rezidențial Poitiers, Iași",
     excerpt:
       "Interfonie individual |, termostate | control acces | iluminat artificial | senzoristică (inundație | fum | contact magnetic).",
     image: `${baseUrl}/poitiers.webp`,
@@ -62,7 +62,7 @@ const stackProjectsData = [
   },
   {
     id: 8,
-    title: "Complex Rezidențial Evergreen Iași",
+    title: "Complex Rezidențial Evergreen, Iași",
     excerpt:
       "Interfonie individuală | senzoristică (inundație | fum | contact magnetic).",
     image: `${baseUrl}/evergreen.webp`,
