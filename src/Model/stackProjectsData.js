@@ -7,23 +7,23 @@ const stackProjectsData = [
     excerpt: "Renovare și instalare supraveghere video.",
     image: `${baseUrl}/loc-joaca.webp`,
     category: "Vaslui",
-    date: "Octombrie 2025",
+    // date: "Octombrie 2025",
   },
   {
     id: 2,
     title: "Loc de joacă pentru copii Pașcani",
     excerpt: "Renovare și montare stâlpi de iluminat.",
     image: `${baseUrl}/loc-joaca.webp`,
-    category: "Spații Publice",
-    date: "Noiembrie 2025",
+    category: "Iași",
+    // date: "Noiembrie 2025",
   },
   {
     id: 3,
     title: "Școala Gimnazială Elena Cuza Iași",
     excerpt: "Iluminat artificial și senzoristică.",
     image: `${baseUrl}/scoala-elena-cuza.webp`,
-    Iași: "Educație",
-    date: "Septembrie 2025",
+    category: "Iași",
+    // date: "Septembrie 2025",
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const stackProjectsData = [
     excerpt: "Detecție incendiu și control acces.",
     image: `${baseUrl}/socola.webp`,
     category: "Iași",
-    date: "August 2025",
+    // date: "August 2025",
   },
   {
     id: 5,
@@ -40,7 +40,7 @@ const stackProjectsData = [
       "HVAC | detecție incendiu | senzori IDSAI | supraveghere video | control acces (cartelă) | iluminat artificial.",
     image: `${baseUrl}/visoianu-1.webp`,
     category: "Iași",
-    date: "Iulie 2025",
+    // date: "Iulie 2025",
   },
   {
     id: 6,
@@ -49,7 +49,7 @@ const stackProjectsData = [
       "Sistem apel SORA | IDSAI | supraveghere video | control acces (cartelă) | iluminat artificial.",
     image: `${baseUrl}/visoianu-2.webp`,
     category: "Iași",
-    date: "Iulie 2025",
+    // date: "Iulie 2025",
   },
   {
     id: 7,
@@ -58,7 +58,7 @@ const stackProjectsData = [
       "Interfonie individual |, termostate | control acces | iluminat artificial | senzoristică (inundație | fum | contact magnetic).",
     image: `${baseUrl}/poitiers.webp`,
     category: "Iași",
-    date: "Iunie 2025",
+    // date: "Iunie 2025",
   },
   {
     id: 8,
@@ -67,7 +67,7 @@ const stackProjectsData = [
       "Interfonie individuală | senzoristică (inundație | fum | contact magnetic).",
     image: `${baseUrl}/evergreen.webp`,
     category: "Iași",
-    date: "Mai 2025",
+    // date: "Mai 2025",
   },
 ];
 
