@@ -52,13 +52,15 @@ export default function ProjectsNavigation() {
     <nav ref={navbarRef} className={navbarClasses}>
       <div className="max-w-screen-xxl flex flex-wrap items-center justify-between mx-auto p-4 xl:px-20">
         <Link
-          to="/fragar"
+          to="/fragar/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img src={data.logo} className="h-8" alt="Fragar" />
-          <span className="leading-none self-center text-xl font-bold whitespace-nowrap text-black transition-colors duration-300">
+          <img className="h-8" src={data.logoDark} alt="Fragar Trading" />
+          {/* <img src={data.logo} className="h-8" alt="Fragar" /> */}
+
+          {/* <span className="leading-none self-center text-xl font-bold whitespace-nowrap text-black transition-colors duration-300">
             {isMobile ? "Fragar" : "Fragar Trading"}
-          </span>
+          </span> */}
         </Link>
         <div className="flex items-center space-x-3 md:space-x-0 rtl:space-x-reverse">
           <a href="tel:+40232250885" className="md:hidden">
