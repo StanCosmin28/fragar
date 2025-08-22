@@ -1,7 +1,34 @@
 const euroProjects = [
   {
+    id: "proiect-DIGI-TOUCH-NEXTGEN",
+    title:
+      "Lansare proiect / Finanțare nerambursabilă pentru SC FRAGAR TRADING SRL DIGI TOUCH NEXTGEN",
+    byline: "by admin | Iulie 28, 2025",
+    paragraphs: [
+      "SC FRAGAR TRADING SRL, cu sediul în Iași, Str. Aleea Rozelor, nr. 6A, Demisol, în parteneriat cu UNIVERSITATEA „ȘTEFAN CEL MARE” DIN SUCEAVA, anunță începerea activităților proiectului „DIGI TOUCH NEXTGEN”, Cod SMIS 338580.",
+      "Proiectul este finanțat prin Programul Regional Nord-Est 2021-2027, Cod apel „PRNE/515/PRNE_P1/OP1”, Titlu apel „ PR/NE/2024/P1/RSO1.1_RSO1.3/1 - PROIECTE DE CDI ȘI INVESTIȚII ÎN IMM”.",
+      "Valoarea totală a proiectului este de 43.277.036,67 lei, din care finanțarea nerambursabilă este în valoare de 25.257.640,87 lei.",
+      "Proiectul va fi implementat pe o durată de 54 luni. Etapa I 28.07. 2025 – 30.06.2028 și Etapa II 01.07.2028- 31.12.2029.",
+      "Obiectiv general: Dezvoltarea până la TRL 7 și lansarea pe piață a unui întrerupător inteligent de clasa A și a unui termostat cu touchscreen, prin construirea unei facilități de producție moderne.",
+      "Obiective specifice:",
+    ],
+    bulletPoints: [
+      "Dezvoltarea prototipurilor funcționale pentru întrerupătorul inteligent de clasa A și termostatul inteligent cu touchscreen.",
+      "Implementarea unei infrastructuri de producție care să includă construcția clădirii și achiziția echipamentelor necesare.",
+      "Implementarea unei infrastructuri de producție care să includă construcția clădirii și achiziția echipamentelor necesare.",
+      "Stabilirea canalelor de distribuție și a parteneriatelor strategice.",
+    ],
+    contact: {
+      name: "Frâncu Cătălin",
+      website: "www.high-quality.ro",
+      email: "projects@high-quality.ro",
+      tel: "+40232250885",
+      fax: "+40232250886",
+    },
+  },
+  {
     // id: "lansare-proiect_Finanțare-nerambursabilă_pentru-SC_FRAGAR_TRADING_SRL",
-    id: "proiect-1",
+    id: "proiect-MINIBRAIN",
     title:
       "Lansare proiect / Finanțare nerambursabilă pentru SC FRAGAR TRADING SRL",
     byline: "by admin | May 19, 2023",
@@ -24,7 +51,7 @@ const euroProjects = [
   },
   {
     // id: "lansare-proiect_Finanțare-nerambursabilă_pentru-SC_FRAGAR_TRADING_SRL_înscris-în_cadrul-măsurii_Granturi-pentru-capital-de-lucru-instituită-prin-OUG_nr_130/2020",
-    id: "proiect-2",
+    id: "proiect-GRANT",
     title:
       "Lansare proiect / Finanțare nerambursabilă pentru SC FRAGAR TRADING SRL înscris în cadrul Măsurii „Granturi pentru capital de lucru”, instituită prin OUG nr. 130/2020",
     byline: "by admin | May 12, 2021",
@@ -38,33 +65,6 @@ const euroProjects = [
       "Proiect cofinanțat din Fondul European de Dezvoltare Regionala prin Programul Operațional Competitivitate 2014-2020.",
     ],
     bulletPoints: [],
-    contact: {
-      name: "Frâncu Cătălin",
-      website: "www.high-quality.ro",
-      email: "projects@high-quality.ro",
-      tel: "+40232250885",
-      fax: "+40232250886",
-    },
-  },
-  {
-    id: "proiect-3",
-    title:
-      "Lansare proiect / Finanțare nerambursabilă pentru SC FRAGAR TRADING SRL DIGI TOUCH NEXTGEN",
-    byline: "by admin | Iulie 28, 2025",
-    paragraphs: [
-      "SC FRAGAR TRADING SRL, cu sediul în Iași, Str. Aleea Rozelor, nr. 6A, Demisol, în parteneriat cu UNIVERSITATEA „ȘTEFAN CEL MARE” DIN SUCEAVA, anunță începerea activităților proiectului „DIGI TOUCH NEXTGEN”, Cod SMIS 338580.",
-      "Proiectul este finanțat prin Programul Regional Nord-Est 2021-2027, Cod apel „PRNE/515/PRNE_P1/OP1”, Titlu apel „ PR/NE/2024/P1/RSO1.1_RSO1.3/1 - PROIECTE DE CDI ȘI INVESTIȚII ÎN IMM”.",
-      "Valoarea totală a proiectului este de 43.277.036,67 lei, din care finanțarea nerambursabilă este în valoare de 25.257.640,87 lei.",
-      "Proiectul va fi implementat pe o durată de 54 luni. Etapa I 28.07. 2025 – 30.06.2028 și Etapa II 01.07.2028- 31.12.2029.",
-      "Obiectiv general: Dezvoltarea până la TRL 7 și lansarea pe piață a unui întrerupător inteligent de clasa A și a unui termostat cu touchscreen, prin construirea unei facilități de producție moderne.",
-      "Obiective specifice:",
-    ],
-    bulletPoints: [
-      "Dezvoltarea prototipurilor funcționale pentru întrerupătorul inteligent de clasa A și termostatul inteligent cu touchscreen.",
-      "Implementarea unei infrastructuri de producție care să includă construcția clădirii și achiziția echipamentelor necesare.",
-      "Implementarea unei infrastructuri de producție care să includă construcția clădirii și achiziția echipamentelor necesare.",
-      "Stabilirea canalelor de distribuție și a parteneriatelor strategice.",
-    ],
     contact: {
       name: "Frâncu Cătălin",
       website: "www.high-quality.ro",
