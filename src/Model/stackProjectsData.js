@@ -44,7 +44,8 @@ const stackProjectsData = [
   },
   {
     id: 6,
-    title: "Hotel Vișoianu (Sistem Apel SORA), Iași",
+    title:
+      "Spitalul Clinic de Urgență pentru Copii 'Sfânta Maria' (Sistem Apel SORA), Iași",
     excerpt:
       "Sistem apel SORA | IDSAI | supraveghere video | control acces (cartelă) | iluminat artificial.",
     image: `${baseUrl}/regina-maria.webp`,
