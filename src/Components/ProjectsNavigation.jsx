@@ -135,7 +135,7 @@ export default function ProjectsNavigation() {
               <li className="relative group">
                 {" "}
                 <Link
-                  to="//noutati"
+                  to="/noutati"
                   // onClick={console.log("European projects page")}
                   className={`block py-2 px-3 rounded-sm md:p-0 transition-allCASTE-4 cursor-pointer`}
                 >
