@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import { HashRouter as Router, Routes, Route } from "react-router-dom"; // change this || HasRouter is for GitHub Pages bcs there is no server to the app || on plesk you can use BrowserRouter
 import HeaderSection from "./Components/HeaderSection";
 import Navbar from "./Components/Navbar";
@@ -20,7 +20,7 @@ import NewsHeader from "./Components/NewsHeader";
 import ProjectDetail from "./Components/ProjectDetails";
 import ScrollToTop from "./Components/ScrollToTop";
 // import ProjectDescription from "./Components/ProjectDescription";
-
+//
 // import projects from "./Model/euroProjects";
 // import ProjectsList from "./Components/ProjectList";
 
