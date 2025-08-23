@@ -6,7 +6,7 @@ const data = {
   logoWhite: `${baseUrl}/fragar-white.svg`,
   logoDark: `${baseUrl}/fragar-dark.svg`,
   video: `${baseUrl}/fragar-video.mp4`,
-  whoWeAre: `${baseUrl}/who_we_are.webp`, //change this is not webp, over 3MB !!!!
+  whoWeAre: `${baseUrl}/who_we_are.webp`,
   solutionIcons: [
     `${baseUrl}/tools-icon.svg`,
     `${baseUrl}/chip-icon.svg`,
