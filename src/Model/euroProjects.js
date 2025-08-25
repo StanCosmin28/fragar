@@ -4,7 +4,7 @@ const euroProjects = [
     title:
       "Lansare proiect / Finanțare nerambursabilă pentru SC FRAGAR TRADING SRL DIGI TOUCH NEXTGEN",
     // euroProjects: "/public/fragar_project.jpeg",
-    euroProjects: "/public/euro_project_fragar_logos.jpeg",
+    euroProjects: "./public/euro_project_fragar_logos.jpeg",
     byline: "by admin | Iulie 28, 2025",
     paragraphs: [
       "SC FRAGAR TRADING SRL, cu sediul în Iași, Str. Aleea Rozelor, nr. 6A, Demisol, în parteneriat cu UNIVERSITATEA „ȘTEFAN CEL MARE” DIN SUCEAVA, anunță începerea activităților proiectului „DIGI TOUCH NEXTGEN”, Cod SMIS 338580.",
