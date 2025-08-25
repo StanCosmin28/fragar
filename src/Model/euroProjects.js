@@ -2,7 +2,7 @@ const euroProjects = [
   {
     id: "proiect-DIGI-TOUCH-NEXTGEN",
     title:
-      "Lansare proiect / Finanțare nerambursabilă pentru SC FRAGAR TRADING SRL DIGI TOUCH NEXTGEN",
+      'Lansare proiect / Finanțare nerambursabilă pentru SC FRAGAR TRADING SRL "DIGI TOUCH NEXTGEN"',
     // euroProjects: "/public/fragar_project.jpeg",
     euroProjects:
       "https://stancosmin28.github.io/fragar/euro_project_fragar_logos.jpeg",
