@@ -9,7 +9,7 @@ const euroProjects = [
     byline: "by admin | Iulie 28, 2025",
     paragraphs: [
       "SC FRAGAR TRADING SRL, cu sediul în Iași, Str. Aleea Rozelor, nr. 6A, Demisol, în parteneriat cu UNIVERSITATEA „ȘTEFAN CEL MARE” DIN SUCEAVA, anunță începerea activităților proiectului „DIGI TOUCH NEXTGEN”, Cod SMIS 338580.",
-      "Proiectul este finanțat prin Programul Regional Nord-Est 2021-2027, Cod apel „PRNE/515/PRNE_P1/OP1”, Titlu apel „ PR/NE/2024/P1/RSO1.1_RSO1.3/1 - PROIECTE DE CDI ȘI INVESTIȚII ÎN IMM”.",
+      "Proiectul este finanțat prin Programul Regional Nord-Est 2021-2027, Cod apel „PRNE/515/PRNE_P1/OP1”, Titlu apel „ PR/NE/2024/P1/RSO1.1_RSO1.3/1 - PROIECTE DE CDI ȘI INVESTIȚII ÎN IMM”. Autoritatea de Management: Agenția pentru Dezvoltare Regională Nord-Est.",
       "Valoarea totală a proiectului este de 43.277.036,67 lei, din care finanțarea nerambursabilă este în valoare de 25.257.640,87 lei.",
       "Proiectul va fi implementat pe o durată de 54 luni. Etapa I 28.07. 2025 – 30.06.2028 și Etapa II 01.07.2028- 31.12.2029.",
       "Obiectiv general: Dezvoltarea până la TRL 7 și lansarea pe piață a unui întrerupător inteligent de clasa A și a unui termostat cu touchscreen, prin construirea unei facilități de producție moderne.",

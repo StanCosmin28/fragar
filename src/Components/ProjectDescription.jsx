@@ -29,7 +29,7 @@ export default function ProjectDescription({ data }) {
       )}
 
       {data.bulletPoints && data.bulletPoints.length > 0 && (
-        <ul className="list-disc list-inside space-y-2 mt-6 text-gray-700">
+        <ul className="list-disc list-inside space-y-2  text-gray-700">
           {data.bulletPoints.map((point, index) => (
             <li key={index}>{point}</li>
           ))}
