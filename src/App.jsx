@@ -18,10 +18,6 @@ import EuroProjects from "./Components/EuroProjects";
 import NewsHeader from "./Components/NewsHeader";
 import ProjectDetail from "./Components/ProjectDetails";
 import ScrollToTop from "./Components/ScrollToTop";
-// import ProjectDescription from "./Components/ProjectDescription";
-//
-// import projects from "./Model/euroProjects";
-// import ProjectsList from "./Components/ProjectList";
 
 function App() {
   return (
