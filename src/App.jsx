@@ -1,6 +1,5 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import { HashRouter as Router, Routes, Route } from "react-router-dom"; // change this || HasRouter is for GitHub Pages bcs there is no server to the app || on plesk you can use BrowserRouter
 import HeaderSection from "./Components/HeaderSection";
 import Navbar from "./Components/Navbar";
 import Solutions from "./Components/Solutions";
