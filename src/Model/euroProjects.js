@@ -18,7 +18,6 @@ const euroProjects = [
     bulletPoints: [
       "Dezvoltarea prototipurilor funcționale pentru întrerupătorul inteligent de clasa A și termostatul inteligent cu touchscreen.",
       "Implementarea unei infrastructuri de producție care să includă construcția clădirii și achiziția echipamentelor necesare.",
-      "Implementarea unei infrastructuri de producție care să includă construcția clădirii și achiziția echipamentelor necesare.",
       "Stabilirea canalelor de distribuție și a parteneriatelor strategice.",
     ],
     mipe: "Pentru informații detaliate despre celelalte programe cofinanțate de Uniunea Europeană, vă invităm să vizitați",
