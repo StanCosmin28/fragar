@@ -46,7 +46,7 @@ function App() {
           path="/proiecte"
           element={
             <>
-              <ProjectsNavigation />
+              {/* <ProjectsNavigation /> */}
               <ProjectsHeader />
               <ProjectsSection />
               <CTASection />
